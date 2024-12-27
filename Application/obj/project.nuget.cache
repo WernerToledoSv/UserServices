@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VPY9VLT64w0=",
+  "dgSpecHash": "wuNP2xdzRqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserService\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itski\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
