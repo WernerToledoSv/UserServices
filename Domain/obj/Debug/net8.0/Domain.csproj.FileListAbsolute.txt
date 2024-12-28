@@ -1,0 +1,12 @@
+/home/werner/Desktop/Services/UserServices/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/werner/Desktop/Services/UserServices/Domain/bin/Debug/net8.0/Domain.dll
+/home/werner/Desktop/Services/UserServices/Domain/bin/Debug/net8.0/Domain.pdb
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.dll
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/Domain.pdb
+/home/werner/Desktop/Services/UserServices/Domain/obj/Debug/net8.0/ref/Domain.dll

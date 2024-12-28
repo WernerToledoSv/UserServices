@@ -1,10 +1,11 @@
 ﻿
 
-using Application.Configuration.Interfaces;
-using Microsoft.Extensions.Configuration;
 
 namespace Infraestructure.Configuration
 {
+    using Application.Configuration.Interfaces;
+    using Microsoft.Extensions.Configuration;
+
     public class Properties : IProperties
     {
         private readonly string _DbStringConnection;

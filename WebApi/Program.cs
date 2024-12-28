@@ -1,15 +1,26 @@
+using Application;
+using Infraestructure;
+
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar servicios al contenedor
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();  // Habilitar la exploración de endpoints para Swagger
+var services = builder.Services;
 
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        // Configurar el comportamiento para omitir propiedades con valor null
+        options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    });
+builder.Services.AddEndpointsApiExplorer();  // Habilitar la exploraciï¿½n de endpoints para Swagger
+
+services.AddApplication();
+services.AddPersistence();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    // Agregar información de la versión de la API
+    // Agregar informaciï¿½n de la versiï¿½n de la API
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "User Service",
@@ -28,15 +39,15 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configuración de Swagger UI
+// Configuraciï¿½n de Swagger UI
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();  // Habilitar Swagger
     app.UseSwaggerUI(c =>
     {
-        // Swagger UI estará disponible en /clinica
+        // Swagger UI estarï¿½ disponible en /clinica
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API");
-        c.RoutePrefix = string.Empty;  // Swagger UI estará disponible en /clinica
+        c.RoutePrefix = string.Empty;  // Swagger UI estarï¿½ disponible en /clinica
     });
 }
 
@@ -44,7 +55,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 
-// Asegúrate de mapear los controladores
+// Asegï¿½rate de mapear los controladores
 app.MapControllers();
 
 app.Run();

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wuNP2xdzRqw=",
+  "dgSpecHash": "k9q8PvwQyaNkBLdjOFC5eudnaqe+Q46hPHjr7l89BSk/aQ3EMMCYAsrq7Z5VnbmD6XsAjHSJdrbkT4GEGBN+LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Application.csproj",
+  "projectFilePath": "/home/werner/Desktop/Services/UserServices/Application/Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\itski\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\itski\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    "/home/werner/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/werner/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/werner/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/werner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using Application.UseCase;
+﻿using Application.UseCase;
 using Application.UseCase.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 

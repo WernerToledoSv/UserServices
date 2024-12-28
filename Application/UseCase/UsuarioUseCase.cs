@@ -31,31 +31,41 @@ namespace Application.UseCase
             throw new NotImplementedException();
         }
 
-        public Task<ListResponse<Usuario>> ListadoUsuario()
+        public async Task<ListResponse<Usuario>> ListadoUsuario()
         {
-            IList<Usuario> lusuario = await _service.ListadoUsuario();
-            if (lusuario.Count != 0 && lusuario != null)
+            var rs = new ListResponse<Usuario>();
+            try
             {
-                var rs = new ListResponse<Usuario>
+                var lusuario = await _service.ListadoUsuario();    
+                if (lusuario.Count != 0 && lusuario != null)
+                {
+                    rs = new ListResponse<Usuario>
+                    {
+                        Code = 1,
+                        Message = "Obtencion del listado de usuario exitosa.",
+                        Items = lusuario
+                    };
+                }
+                else
+                {
+                    rs = new ListResponse<Usuario>
+                    {
+                        Code = 1,
+                        Message = "No existen datos.",
+                        Items = null
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                rs = new ListResponse<Usuario>
                 {
                     Code = 1,
-                    Message = "Obtencion del listado de usuario exitosa.",
-                    Items = lusuario
-                };
-                //return rs;
-
-            }
-            else
-            {
-                var rs = new ListResponse<Usuario>
-                {
-                    Code = 0,
-                    Message = "Error en obtencion del listado de usuario.",
+                    Message = "Error fatal en obtencion del listado de usuario.",
                     Items = null
                 };
-                //return rs;
             }
-            throw new NotImplementedException();
+            return rs;
         }
     }
 }

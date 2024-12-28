@@ -7,7 +7,7 @@ using Npgsql;
 
 namespace Infraestructure.DbContext
 {
-    public class AppDbContext : IAppContext
+    public class AppDbContext : IAppDbContext
     {
         private IDbConnection _IDbConnection;
         private readonly string _dbpath;
