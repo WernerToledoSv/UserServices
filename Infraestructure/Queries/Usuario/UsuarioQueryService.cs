@@ -39,7 +39,7 @@ namespace Infraestructure.Queries.Usuario
 
         public async Task<IList<Usuario>> ListadoUsuario()
         {
-            string _query = @"SELECT * FROM usuario";
+            string _query = @"SELECT * FROM func_leer_todos_usuarios()";
             
             using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
             // Ejecuta la consulta y convierte el resultado a un IList<Usuario>
