@@ -11,7 +11,6 @@ namespace Application
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
             services.AddScoped<IUsuarioUseCase,UsuarioUseCase>();
-            
         }
     }
 }

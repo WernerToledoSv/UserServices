@@ -6,7 +6,6 @@ namespace Infraestructure.Queries.Usuario
 {
     using System;
     using Domain.Entities.Services.Queries;
-    using Infraestructure.DbContext;
 
     public class UsuarioQueryService : IUsuarioService
     {
