@@ -1,4 +1,4 @@
-namespace Domain.Entities.UserEntities;
+namespace Domain.Entities.Services.Queries.UserEntities;
 
 public class UsuarioEntity
 {

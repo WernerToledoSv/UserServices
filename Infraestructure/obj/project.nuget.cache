@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "0LwVzjIEMOgNY1xrBxtFH503JiMtgRPrlaQlW1EZN8NNLlbIK1a69bWOEcNNmICEaKAVnTydlvgP+zx3QpfCCA==",
+  "dgSpecHash": "z+9QmaFQFXc=",
   "success": true,
-  "projectFilePath": "/home/werner/Desktop/Services/UserServices/Infraestructure/Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\Infraestructure.csproj",
   "expectedPackageFiles": [
-    "/home/werner/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
-    "/home/werner/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
-    "/home/werner/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "/home/werner/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "/home/werner/.nuget/packages/npgsql/9.0.2/npgsql.9.0.2.nupkg.sha512"
+    "C:\\Users\\itski\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\itski\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512"
   ],
   "logs": []
 }

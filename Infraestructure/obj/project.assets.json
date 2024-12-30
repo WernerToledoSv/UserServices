@@ -506,35 +506,42 @@
     ]
   },
   "packageFolders": {
-    "/home/werner/.nuget/packages/": {}
+    "C:\\Users\\itski\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/werner/Desktop/Services/UserServices/Infraestructure/Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\Infraestructure.csproj",
       "projectName": "Infraestructure",
-      "projectPath": "/home/werner/Desktop/Services/UserServices/Infraestructure/Infraestructure.csproj",
-      "packagesPath": "/home/werner/.nuget/packages/",
-      "outputPath": "/home/werner/Desktop/Services/UserServices/Infraestructure/obj/",
+      "projectPath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\itski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/werner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\itski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/werner/Desktop/Services/UserServices/Application/Application.csproj": {
-              "projectPath": "/home/werner/Desktop/Services/UserServices/Application/Application.csproj"
+            "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Application.csproj"
             },
-            "/home/werner/Desktop/Services/UserServices/Domain/Domain.csproj": {
-              "projectPath": "/home/werner/Desktop/Services/UserServices/Domain/Domain.csproj"
+            "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Domain\\Domain.csproj"
             }
           }
         }
@@ -543,7 +550,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -582,7 +595,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

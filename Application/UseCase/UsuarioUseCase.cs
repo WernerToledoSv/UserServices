@@ -1,9 +1,11 @@
 ﻿
 
+using Application.Feature.Usuario.Commands;
 using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Queries;
+using Domain.Entities.Services.Queries.UserEntities;
 
 namespace Application.UseCase
 {
@@ -16,39 +18,73 @@ namespace Application.UseCase
             _service = service;
         }
 
-        public Task<ObjectResponse<Usuario>> ActualizarUsuario()
+        public Task<ObjectResponse<UsuarioEntity>> ActualizarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public Task<ObjectResponse<Usuario>> AgregarUsuario()
+        public async Task<ObjectResponse<UsuarioEntity>> AgregarUsuario(IngresarUsuarioCommand rq)
+        {
+            var rs = new ObjectResponse<UsuarioEntity>();
+            try
+            {
+                var usuarioIngresado = await _service.AgregarUsuario(rq);
+                if (usuarioIngresado != null)
+                {
+                    rs = new ObjectResponse<UsuarioEntity>
+                    {
+                        Code = 0,
+                        Message = "Exito al ingresar el usuario.",
+                        Item = usuarioIngresado
+                    };
+
+                }
+                else 
+                {
+                    rs = new ObjectResponse<UsuarioEntity>
+                    {
+                        Code = 1,
+                        Message = "Error al ingresar el usuario.",
+                        Item = null
+                    };
+                }
+
+            }
+            catch (Exception ex) 
+            {
+                rs = new ObjectResponse<UsuarioEntity>
+                {
+                    Code = 1,
+                    Message = "Error fatal al ingresar el usuario.",
+                    Item = null
+                };
+            }
+            return rs;
+        }
+
+        public Task<ObjectResponse<UsuarioEntity>> EliminarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public Task<ObjectResponse<Usuario>> EliminarUsuario()
+        public async Task<ListResponse<UsuarioEntity>> ListadoUsuario()
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<ListResponse<Usuario>> ListadoUsuario()
-        {
-            var rs = new ListResponse<Usuario>();
+            var rs = new ListResponse<UsuarioEntity>();
             try
             {
                 var lusuario = await _service.ListadoUsuario();    
                 if (lusuario.Count != 0 && lusuario != null)
                 {
-                    rs = new ListResponse<Usuario>
+                    rs = new ListResponse<UsuarioEntity>
                     {
-                        Code = 1,
+                        Code = 0,
                         Message = "Obtencion del listado de usuario exitosa.",
                         Items = lusuario
                     };
                 }
                 else
                 {
-                    rs = new ListResponse<Usuario>
+                    rs = new ListResponse<UsuarioEntity>
                     {
                         Code = 1,
                         Message = "No existen datos.",
@@ -58,7 +94,7 @@ namespace Application.UseCase
             }
             catch (Exception ex)
             {
-                rs = new ListResponse<Usuario>
+                rs = new ListResponse<UsuarioEntity>
                 {
                     Code = 1,
                     Message = "Error fatal en obtencion del listado de usuario.",
