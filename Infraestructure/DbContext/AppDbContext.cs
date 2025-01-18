@@ -1,6 +1,4 @@
-﻿
-
-using System.Data;
+﻿using System.Data;
 using Application.Configuration.Interfaces;
 using Infraestructure.DbContext.Interface;
 using Npgsql;

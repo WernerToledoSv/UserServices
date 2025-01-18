@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "AgregarUsuario",
+    "RelativePath": "api/v1/Usuario/AgregarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Usuario.Commands.IngresarUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Queries.UserEntities.UsuarioEntity, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "api/v1/Usuario/ListadoUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Queries.UserEntities.UsuarioEntity, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  }
+]

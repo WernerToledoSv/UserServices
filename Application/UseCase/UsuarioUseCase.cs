@@ -4,7 +4,6 @@ using Application.Feature.Usuario.Commands;
 using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries;
 using Domain.Entities.Services.Queries.UserEntities;
 
 namespace Application.UseCase
@@ -26,36 +25,24 @@ namespace Application.UseCase
         public async Task<ObjectResponse<UsuarioEntity>> AgregarUsuario(IngresarUsuarioCommand rq)
         {
             var rs = new ObjectResponse<UsuarioEntity>();
-            try
-            {
-                var usuarioIngresado = await _service.AgregarUsuario(rq);
-                if (usuarioIngresado != null)
-                {
-                    rs = new ObjectResponse<UsuarioEntity>
-                    {
-                        Code = 0,
-                        Message = "Exito al ingresar el usuario.",
-                        Item = usuarioIngresado
-                    };
-
-                }
-                else 
-                {
-                    rs = new ObjectResponse<UsuarioEntity>
-                    {
-                        Code = 1,
-                        Message = "Error al ingresar el usuario.",
-                        Item = null
-                    };
-                }
-
-            }
-            catch (Exception ex) 
+           
+            var usuarioIngresado = await _service.AgregarUsuario(rq);
+            if (usuarioIngresado != null)
             {
                 rs = new ObjectResponse<UsuarioEntity>
                 {
                     Code = 1,
-                    Message = "Error fatal al ingresar el usuario.",
+                    Message = "Exito al ingresar el usuario.",
+                    Item = (UsuarioEntity)usuarioIngresado
+                };
+
+            }
+            else 
+            {
+                rs = new ObjectResponse<UsuarioEntity>
+                {
+                    Code = 0,
+                    Message = "Error al ingresar el usuario.",
                     Item = null
                 };
             }
@@ -70,34 +57,23 @@ namespace Application.UseCase
         public async Task<ListResponse<UsuarioEntity>> ListadoUsuario()
         {
             var rs = new ListResponse<UsuarioEntity>();
-            try
+          
+            var lusuario = await _service.ListadoUsuario();    
+            if (lusuario.Count != 0 && lusuario != null)
             {
-                var lusuario = await _service.ListadoUsuario();    
-                if (lusuario.Count != 0 && lusuario != null)
+                rs = new ListResponse<UsuarioEntity>
                 {
-                    rs = new ListResponse<UsuarioEntity>
-                    {
-                        Code = 0,
-                        Message = "Obtencion del listado de usuario exitosa.",
-                        Items = lusuario
-                    };
-                }
-                else
-                {
-                    rs = new ListResponse<UsuarioEntity>
-                    {
-                        Code = 1,
-                        Message = "No existen datos.",
-                        Items = null
-                    };
-                }
+                    Code = 0,
+                    Message = "Obtencion del listado de usuario exitosa.",
+                    Items = lusuario
+                };
             }
-            catch (Exception ex)
+            else
             {
                 rs = new ListResponse<UsuarioEntity>
                 {
                     Code = 1,
-                    Message = "Error fatal en obtencion del listado de usuario.",
+                    Message = "No existen datos.",
                     Items = null
                 };
             }

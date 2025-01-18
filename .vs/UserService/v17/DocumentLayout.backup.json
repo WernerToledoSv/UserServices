@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\",
+  "WorkspaceRootPath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\itski\\onedrive\\documentos\\github\\userservices\\webapi\\controller\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\controller\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controller\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\itski\\onedrive\\documentos\\github\\userservices\\application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\usuario\\commands\\ingresarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\usuario\\commands\\ingresarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\queries\\obtenerusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\queries\\obtenerusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\itski\\onedrive\\documentos\\github\\userservices\\application\\feature\\usuario\\queries\\obtenerusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\usuario\\queries\\obtenerusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\itski\\onedrive\\documentos\\github\\userservices\\infraestructure\\queries\\usuario\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\queries\\usuario\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObtenerUsuarioQuery.cs",
-              "DocumentMoniker": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Feature\\Usuario\\Queries\\ObtenerUsuarioQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Feature\\Usuario\\Queries\\ObtenerUsuarioQuery.cs",
-              "ToolTip": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Feature\\Usuario\\Queries\\ObtenerUsuarioQuery.cs",
-              "RelativeToolTip": "Application\\Feature\\Usuario\\Queries\\ObtenerUsuarioQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IngresarUsuarioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:54:02.324Z",
+              "WhenOpened": "2025-01-18T17:52:55.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioQueryService.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\UsuarioQueryService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioQueryService.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\UsuarioQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:18:42.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs",
-              "RelativeToolTip": "WebApi\\Controller\\v1\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Title": "UsuarioUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\UsuarioUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs*",
+              "RelativeToolTip": "Application\\UseCase\\UsuarioUseCase.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:52:57.54Z",
+              "WhenOpened": "2025-01-08T02:11:24.859Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInyection.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInyection.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
+              "RelativeToolTip": "Application\\DependencyInyection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:11:22.336Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs*",
+              "RelativeToolTip": "WebApi\\Controller\\v1\\UsuarioController.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwDAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:47:16.365Z",
+              "WhenOpened": "2025-01-08T02:11:16.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\Queries\\Usuario\\UsuarioQueryService.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Queries\\Usuario\\UsuarioQueryService.cs",
-              "ToolTip": "C:\\Users\\itski\\OneDrive\\Documentos\\GitHub\\UserServices\\Infraestructure\\Queries\\Usuario\\UsuarioQueryService.cs",
-              "RelativeToolTip": "Infraestructure\\Queries\\Usuario\\UsuarioQueryService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAABAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DbContext\\AppDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\DbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:21:08.094Z",
+              "WhenOpened": "2025-01-08T02:08:39.651Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:18:53.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObtenerUsuarioQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:34:33.824Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,7 +3,7 @@ using Application.Interfaces.Services;
 using Infraestructure.Configuration;
 using Infraestructure.DbContext;
 using Infraestructure.DbContext.Interface;
-using Infraestructure.Queries.Usuario;
+using Infraestructure.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Infraestructure
