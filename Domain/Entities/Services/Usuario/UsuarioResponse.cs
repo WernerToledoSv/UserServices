@@ -1,6 +1,6 @@
-namespace Domain.Entities.Services.Queries.UserEntities;
+namespace Domain.Entities.Services.Usuario;
 
-public class UsuarioEntity
+public class UsuarioResponse
 {
     public int Id { get; set; } // SERIAL PRIMARY KEY
 

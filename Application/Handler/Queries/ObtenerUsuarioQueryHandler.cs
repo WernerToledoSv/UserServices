@@ -3,13 +3,12 @@
 using Application.Feature.User.Queries;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries;
-using Domain.Entities.Services.Queries.UserEntities;
+using Domain.Entities.Services.Usuario;
 using MediatR;
 
 namespace Application.Handler.Queries
 {
-    public class ObtenerUsuarioQueryHandler : IRequestHandler<ObtenerUsuarioQuery, ListResponse<UsuarioEntity>>
+    public class ObtenerUsuarioQueryHandler : IRequestHandler<ObtenerUsuarioQuery, ListResponse<UsuarioResponse>>
     {
         private readonly IUsuarioUseCase usuarioUseCase;
 
@@ -18,7 +17,7 @@ namespace Application.Handler.Queries
             this.usuarioUseCase = usuarioUseCase;
         }
 
-        public async Task<ListResponse<UsuarioEntity>> Handle(ObtenerUsuarioQuery request, CancellationToken cancellationToken)
+        public async Task<ListResponse<UsuarioResponse>> Handle(ObtenerUsuarioQuery request, CancellationToken cancellationToken)
         {
             var rs = await usuarioUseCase.ListadoUsuario();
             return rs;

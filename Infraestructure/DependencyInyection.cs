@@ -13,8 +13,17 @@ namespace Infraestructure
         public static void AddPersistence(this IServiceCollection services)
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
-            services.AddScoped<IUsuarioService, UsuarioQueryService>();
+
+            #region Servicios
+            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IRolService, RolService>();
+            services.AddScoped<ILugarService, LugarService>();
+            #endregion
+
+            #region Base de datos
             services.AddScoped<IAppDbContext, AppDbContext>();
+            #endregion
+
             services.AddScoped<IProperties, Properties>();
         }
     }

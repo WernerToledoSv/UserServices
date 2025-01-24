@@ -1,17 +1,20 @@
 using Application;
 using Infraestructure;
-
 using Microsoft.OpenApi.Models;
+using Serilog;
+using System.Text.Json.Serialization;
+using WebApi.Helpers;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 var services = builder.Services;
 
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        // Configurar el comportamiento para omitir propiedades con valor null
-        options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+services.AddControllers()
+    .AddJsonOptions(options => 
+    { 
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull; 
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles; 
     });
 builder.Services.AddEndpointsApiExplorer();  // Habilitar la exploraci�n de endpoints para Swagger
 
@@ -37,25 +40,38 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-var app = builder.Build();
-
-// Configuraci�n de Swagger UI
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwagger();  // Habilitar Swagger
-    app.UseSwaggerUI(c =>
+    var app = builder.Build();
+    var logger = app.Logger;
+
+    // Configuraci�n de Swagger UI
+    if (app.Environment.IsDevelopment())
     {
-        // Swagger UI estar� disponible en /clinica
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API");
-        c.RoutePrefix = string.Empty;  // Swagger UI estar� disponible en /clinica
-    });
+        app.UseSwagger();  // Habilitar Swagger
+        app.UseSwaggerUI(c =>
+        {
+            // Swagger UI estar� disponible en /clinica
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API");
+            c.RoutePrefix = string.Empty;  // Swagger UI estar� disponible en /clinica
+        });
+    }
+
+    // Middleware que maneja las solicitudes https y http
+    app.UseHttpsRedirection();
+    app.UseAuthorization();
+
+    // Aseg�rate de mapear los controladores
+    app.MapControllers();
+
+    logger.LogInformation("> Starting web host...");
+    ConsoleHelpers.ConfigurationDefaultCulture(logger);
+
+
+    app.Run();
+}
+catch (Exception ex) 
+{
+    Log.Fatal(ex.Message);
 }
 
-// Middleware que maneja las solicitudes https y http
-app.UseHttpsRedirection();
-app.UseAuthorization();
-
-// Aseg�rate de mapear los controladores
-app.MapControllers();
-
-app.Run();

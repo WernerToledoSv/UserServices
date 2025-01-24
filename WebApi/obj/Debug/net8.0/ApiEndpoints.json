@@ -1,8 +1,416 @@
 [
   {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "ActivarLugar",
+    "RelativePath": "api/v1/Lugar/Activar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Lugar.Commands.ActivarLugarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "ActualizarLugar",
+    "RelativePath": "api/v1/Lugar/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Lugar.Commands.ActualizarLugarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "AgregarLugar",
+    "RelativePath": "api/v1/Lugar/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Lugar.Commands.AgregarLugarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "EliminarLugar",
+    "RelativePath": "api/v1/Lugar/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Lugar.Commands.EliminarLugarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "ObtenerLugar",
+    "RelativePath": "api/v1/Lugar/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "ActivarRol",
+    "RelativePath": "api/v1/Rol/Activar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Rol.Commands.ActivarRolCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "ActualizarRol",
+    "RelativePath": "api/v1/Rol/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Rol.Commands.ActualizarRolCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "AgregarRol",
+    "RelativePath": "api/v1/Rol/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Rol.Commands.AgregarRolCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "BuscarRolById",
+    "RelativePath": "api/v1/Rol/Burcar-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "BuscarRolByNombre",
+    "RelativePath": "api/v1/Rol/Burcar-Nombre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "EliminarRol",
+    "RelativePath": "api/v1/Rol/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Rol.Commands.EliminarRolCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.RolController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "api/v1/Rol/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controller.v1.UsuarioController",
     "Method": "AgregarUsuario",
-    "RelativePath": "api/v1/Usuario/AgregarUsuario",
+    "RelativePath": "api/v1/Usuario/Agregar-Usuario",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -15,7 +423,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Queries.UserEntities.UsuarioEntity, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -37,14 +445,14 @@
   {
     "ContainingType": "WebApi.Controller.v1.UsuarioController",
     "Method": "ObtenerUsuario",
-    "RelativePath": "api/v1/Usuario/ListadoUsuario",
+    "RelativePath": "api/v1/Usuario/Listado-Usuario",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Queries.UserEntities.UsuarioEntity, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\usuarioqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\controller\\v1\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controller\\v1\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\usuario\\commands\\ingresarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\usuario\\commands\\ingresarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\lugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\lugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\controller\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controller\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\commands\\activarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\commands\\activarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\ilugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\ilugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\queries\\obtenerusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\queries\\obtenerusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\interfaces\\ilugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\interfaces\\ilugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\lugar\\commands\\activarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\lugar\\commands\\activarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\queries\\obtenerlugarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\queries\\obtenerlugarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\commands\\eliminarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\commands\\eliminarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\commands\\actualizarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\commands\\actualizarlugarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\lugar\\commands\\eliminarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\lugar\\commands\\eliminarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\lugar\\commands\\actualizarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\lugar\\commands\\actualizarlugarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IngresarUsuarioCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
-              "RelativeToolTip": "Application\\Feature\\Usuario\\Commands\\IngresarUsuarioCommand.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wCYAAABMAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ActivarLugarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\ActivarLugarCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Lugar\\Commands\\ActivarLugarCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\ActivarLugarCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Lugar\\Commands\\ActivarLugarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:52:55.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioQueryService.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Repository\\UsuarioQueryService.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioQueryService.cs",
-              "RelativeToolTip": "Infraestructure\\Repository\\UsuarioQueryService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:18:42.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
-              "RelativeDocumentMoniker": "Application\\UseCase\\UsuarioUseCase.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
-              "RelativeToolTip": "Application\\UseCase\\UsuarioUseCase.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwEEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T02:11:24.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInyection.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
-              "RelativeDocumentMoniker": "Application\\DependencyInyection.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
-              "RelativeToolTip": "Application\\DependencyInyection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T02:11:22.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UsuarioController.cs",
-              "RelativeToolTip": "WebApi\\Controller\\v1\\UsuarioController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T02:11:16.808Z",
+              "WhenOpened": "2025-01-24T20:59:30.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\DbContext\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DbContext\\AppDbContext.cs",
-              "RelativeToolTip": "Infraestructure\\DbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBYAAAAIAAAAAAAAAA==",
+              "Title": "ILugarService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\ILugarService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\ILugarService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\ILugarService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Services\\ILugarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T02:08:39.651Z",
+              "WhenOpened": "2025-01-24T20:53:37.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\Services\\IUsuarioService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EliminarLugarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\EliminarLugarCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Lugar\\Commands\\EliminarLugarCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\EliminarLugarCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Lugar\\Commands\\EliminarLugarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:18:53.522Z"
+              "WhenOpened": "2025-01-24T20:48:49.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LugarController.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\LugarController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\LugarController.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\LugarController.cs",
+              "RelativeToolTip": "WebApi\\Controller\\v1\\LugarController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowHgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:43:34.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LugarService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\LugarService.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\LugarService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\LugarService.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\LugarService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:41:48.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LugarUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\LugarUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\LugarUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\LugarUseCase.cs",
+              "RelativeToolTip": "Application\\UseCase\\LugarUseCase.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:38:44.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivarLugarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\ActivarLugarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Commands\\ActivarLugarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\ActivarLugarCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Commands\\ActivarLugarCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T21:00:59.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ObtenerUsuarioQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
-              "RelativeToolTip": "Application\\Handler\\Queries\\ObtenerUsuarioQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "ILugarUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\Interfaces\\ILugarUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\Interfaces\\ILugarUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\Interfaces\\ILugarUseCase.cs",
+              "RelativeToolTip": "Application\\UseCase\\Interfaces\\ILugarUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:34:33.824Z",
+              "WhenOpened": "2025-01-24T20:34:44.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EliminarLugarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\EliminarLugarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Commands\\EliminarLugarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\EliminarLugarCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Commands\\EliminarLugarCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:51:12.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObtenerLugarQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerLugarQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Queries\\ObtenerLugarQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Queries\\ObtenerLugarQueryHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Queries\\ObtenerLugarQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:55:02.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ActualizarLugarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\ActualizarLugarCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Lugar\\Commands\\ActualizarLugarCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Lugar\\Commands\\ActualizarLugarCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Lugar\\Commands\\ActualizarLugarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:38:07.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActualizarLugarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\ActualizarLugarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Commands\\ActualizarLugarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\ActualizarLugarCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Commands\\ActualizarLugarCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:36:01.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\RolService.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\RolService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\RolService.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\RolService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:42:46.496Z",
               "EditorCaption": ""
             }
           ]

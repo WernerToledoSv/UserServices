@@ -1,16 +1,22 @@
 using Application.Feature.User.Queries;
 using Application.Feature.Usuario.Commands;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries.UserEntities;
+using Domain.Entities.Services.Usuario;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controller.v1;
 
 public class UsuarioController : BaseApiController
 {
+    private readonly ILogger<UsuarioController> _logger;
 
-    [HttpGet("ListadoUsuario")]
-    [ProducesResponseType(typeof(ListResponse<UsuarioEntity>), 200)]
+    public UsuarioController(ILogger<UsuarioController> logger)
+    {
+        _logger = logger;
+    }
+
+    [HttpGet("Listado-Usuario")]
+    [ProducesResponseType(typeof(ListResponse<UsuarioResponse>), 200)]
     [ProducesResponseType(typeof(GenericResponse), 500)]
     public async Task<IActionResult> ObtenerUsuario()
     {
@@ -20,10 +26,13 @@ public class UsuarioController : BaseApiController
             return Ok(rs);
         }
         catch (Exception ex) {
+
+            string message = $"Error fatal en obtencion del listado de usuario.{ex.Message}";
+            _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
             var rs = new GenericResponse()
             {
                 Code = 0,
-                Message = "Error fatal en obtencion del listado de usuario."
+                Message = message
             };
 
             return StatusCode(500, rs);
@@ -31,8 +40,8 @@ public class UsuarioController : BaseApiController
         
     }
 
-    [HttpPost("AgregarUsuario")]
-    [ProducesResponseType(typeof(ListResponse<UsuarioEntity>), 200)]
+    [HttpPost("Agregar-Usuario")]
+    [ProducesResponseType(typeof(ListResponse<UsuarioResponse>), 200)]
     [ProducesResponseType(typeof(GenericResponse), 500)]
     public async Task<IActionResult> AgregarUsuario([FromBody] IngresarUsuarioCommand rq)
     {
@@ -43,10 +52,12 @@ public class UsuarioController : BaseApiController
         }
         catch (Exception ex)
         {
+            string message = $"Error fatal al ingresar el usuario. {ex.Message}";
+            _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
             var rs = new GenericResponse()
             {
                 Code = 0,
-                Message = "Error fatal al ingresar el usuario."
+                Message = message
             };
 
             return StatusCode(500, rs);

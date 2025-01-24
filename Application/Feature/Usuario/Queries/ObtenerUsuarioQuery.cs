@@ -1,14 +1,11 @@
-﻿
-
-using Domain.Entities.BaseResponse;
+﻿using Domain.Entities.BaseResponse;
 using MediatR;
+using Domain.Entities.Services.Usuario;
 
 namespace Application.Feature.User.Queries
 {
-    using Domain.Entities.Services.Queries;
-    using Domain.Entities.Services.Queries.UserEntities;
-
-    public class ObtenerUsuarioQuery:IRequest<ListResponse<UsuarioEntity>>
+    
+    public class ObtenerUsuarioQuery:IRequest<ListResponse<UsuarioResponse>>
     {
 
 

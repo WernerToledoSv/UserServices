@@ -2,17 +2,16 @@
 
 using Application.Feature.Usuario.Commands;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries;
-using Domain.Entities.Services.Queries.UserEntities;
+using Domain.Entities.Services.Usuario;
 
 namespace Application.UseCase.Interfaces
 {
     public interface IUsuarioUseCase
     {
-        Task<ListResponse<UsuarioEntity>> ListadoUsuario();
-        Task<ObjectResponse<UsuarioEntity>> AgregarUsuario(IngresarUsuarioCommand rq);
-        Task<ObjectResponse<UsuarioEntity>> ActualizarUsuario();
-        Task<ObjectResponse<UsuarioEntity>> EliminarUsuario();
+        Task<ListResponse<UsuarioResponse>> ListadoUsuario();
+        Task<ObjectResponse<UsuarioResponse>> AgregarUsuario(IngresarUsuarioCommand rq);
+        Task<ObjectResponse<UsuarioResponse>> ActualizarUsuario();
+        Task<ObjectResponse<UsuarioResponse>> EliminarUsuario();
 
 
     }

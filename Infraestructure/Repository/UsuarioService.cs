@@ -2,33 +2,33 @@ using Application.Interfaces.Services;
 using Infraestructure.DbContext.Interface;
 using Dapper;
 using Application.Feature.Usuario.Commands;
-using Domain.Entities.Services.Queries.UserEntities;
 using Domain.Entities.BaseResponse;
+using Domain.Entities.Services.Usuario;
 
 
 namespace Infraestructure.Repository
 {
 
-    public class UsuarioQueryService : IUsuarioService
+    public class UsuarioService : IUsuarioService
     {
         #region Atributos
         private readonly IAppDbContext _appDbContext;
         #endregion
 
         #region Constructor
-        public UsuarioQueryService(IAppDbContext appDbContext)
+        public UsuarioService(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
         #endregion
 
         #region Metodos
-        public Task<UsuarioEntity> ActualizarUsuario()
+        public Task<UsuarioResponse> ActualizarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<UsuarioEntity> AgregarUsuario(IngresarUsuarioCommand rq)
+        public async Task<UsuarioResponse> AgregarUsuario(IngresarUsuarioCommand rq)
         {
 
 
@@ -36,22 +36,22 @@ namespace Infraestructure.Repository
 
             using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
 
-            var rs = await connection.QuerySingleOrDefaultAsync<UsuarioEntity>(_query, rq);
+            var rs = await connection.QuerySingleOrDefaultAsync<UsuarioResponse>(_query, rq);
             return rs;
         }
 
-        public Task<UsuarioEntity> EliminarUsuario()
+        public Task<UsuarioResponse> EliminarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IList<UsuarioEntity>> ListadoUsuario()
+        public async Task<IList<UsuarioResponse>> ListadoUsuario()
         {
-            string _query = @"SELECT * FROM func_leer_todos_usuarios()";
+            string _query = @"SELECT * FROM funcleertodosusuarios()";
 
             using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
             // Ejecuta la consulta y convierte el resultado a un IList<Usuario>
-            var rs = (await connection.QueryAsync<UsuarioEntity>(_query)).ToList();
+            var rs = (await connection.QueryAsync<UsuarioResponse>(_query)).ToList();
             return rs;
         }
         #endregion

@@ -4,7 +4,7 @@ using Application.Feature.Usuario.Commands;
 using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries.UserEntities;
+using Domain.Entities.Services.Usuario;
 
 namespace Application.UseCase
 {
@@ -17,29 +17,29 @@ namespace Application.UseCase
             _service = service;
         }
 
-        public Task<ObjectResponse<UsuarioEntity>> ActualizarUsuario()
+        public Task<ObjectResponse<UsuarioResponse>> ActualizarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<ObjectResponse<UsuarioEntity>> AgregarUsuario(IngresarUsuarioCommand rq)
+        public async Task<ObjectResponse<UsuarioResponse>> AgregarUsuario(IngresarUsuarioCommand rq)
         {
-            var rs = new ObjectResponse<UsuarioEntity>();
+            var rs = new ObjectResponse<UsuarioResponse>();
            
             var usuarioIngresado = await _service.AgregarUsuario(rq);
             if (usuarioIngresado != null)
             {
-                rs = new ObjectResponse<UsuarioEntity>
+                rs = new ObjectResponse<UsuarioResponse>
                 {
                     Code = 1,
                     Message = "Exito al ingresar el usuario.",
-                    Item = (UsuarioEntity)usuarioIngresado
+                    Item = (UsuarioResponse)usuarioIngresado
                 };
 
             }
             else 
             {
-                rs = new ObjectResponse<UsuarioEntity>
+                rs = new ObjectResponse<UsuarioResponse>
                 {
                     Code = 0,
                     Message = "Error al ingresar el usuario.",
@@ -49,19 +49,19 @@ namespace Application.UseCase
             return rs;
         }
 
-        public Task<ObjectResponse<UsuarioEntity>> EliminarUsuario()
+        public Task<ObjectResponse<UsuarioResponse>> EliminarUsuario()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<ListResponse<UsuarioEntity>> ListadoUsuario()
+        public async Task<ListResponse<UsuarioResponse>> ListadoUsuario()
         {
-            var rs = new ListResponse<UsuarioEntity>();
+            var rs = new ListResponse<UsuarioResponse>();
           
             var lusuario = await _service.ListadoUsuario();    
             if (lusuario.Count != 0 && lusuario != null)
             {
-                rs = new ListResponse<UsuarioEntity>
+                rs = new ListResponse<UsuarioResponse>
                 {
                     Code = 0,
                     Message = "Obtencion del listado de usuario exitosa.",
@@ -70,7 +70,7 @@ namespace Application.UseCase
             }
             else
             {
-                rs = new ListResponse<UsuarioEntity>
+                rs = new ListResponse<UsuarioResponse>
                 {
                     Code = 1,
                     Message = "No existen datos.",

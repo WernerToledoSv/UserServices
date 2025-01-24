@@ -1,12 +1,12 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using Domain.Entities.BaseResponse;
-using Domain.Entities.Services.Queries.UserEntities;
+using Domain.Entities.Services.Usuario;
 using MediatR;
 
 namespace Application.Feature.Usuario.Commands;
 
-public class IngresarUsuarioCommand : IRequest<ObjectResponse<UsuarioEntity>>
+public class IngresarUsuarioCommand : IRequest<ObjectResponse<UsuarioResponse>>
 {
     [Required]
     public int pIdRol { get; set; } // idrol INT
