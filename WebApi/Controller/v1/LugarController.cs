@@ -8,9 +8,9 @@ namespace WebApi.Controller.v1
 {
     public class LugarController : BaseApiController
     {
-        private readonly ILogger<RolController> _logger;
+        private readonly ILogger<LugarController> _logger;
 
-        public LugarController(ILogger<RolController> logger)
+        public LugarController(ILogger<LugarController> logger)
         {
             _logger = logger;
         }
@@ -40,6 +40,56 @@ namespace WebApi.Controller.v1
                 return StatusCode(500, rs);
             }
 
+        }
+
+        [HttpGet("Buscar-Id")]
+        [ProducesResponseType(typeof(ObjectResponse<LugarResponse>), 200)]
+        [ProducesResponseType(typeof(GenericResponse), 500)]
+        public async Task<IActionResult> BuscarLugarById([FromQuery] BuscarLugarByIdQuery rq)
+        {
+            try
+            {
+                var rs = await Mediator.Send(rq);
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+
+                string message = $"Error fatal en la busqueda por id del lugar. {ex.Message}";
+                _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
+                var rs = new GenericResponse()
+                {
+                    Code = 0,
+                    Message = message
+                };
+
+                return StatusCode(500, rs);
+            }
+        }
+
+        [HttpGet("Buscar-Nombre")]
+        [ProducesResponseType(typeof(ListResponse<LugarResponse>), 200)]
+        [ProducesResponseType(typeof(GenericResponse), 500)]
+        public async Task<IActionResult> BuscarLugarByNombre([FromQuery] BuscarLugarByNombreQuery rq)
+        {
+            try
+            {
+                var rs = await Mediator.Send(rq);
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+
+                string message = $"Error fatal en la busqueda de lugar por nombre. {ex.Message}";
+                _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
+                var rs = new GenericResponse()
+                {
+                    Code = 0,
+                    Message = message
+                };
+
+                return StatusCode(500, rs);
+            }
         }
 
         [HttpPost("Agregar")]

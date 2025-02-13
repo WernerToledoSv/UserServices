@@ -1,7 +1,6 @@
 ﻿
 using Application.Feature.Rol.Commands;
 using Application.Feature.Rol.Queries;
-using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Rol;
 
 namespace Application.Interfaces.Services

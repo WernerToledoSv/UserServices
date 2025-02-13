@@ -7,11 +7,11 @@ using MediatR;
 
 namespace Application.Handler.Queries
 {
-    public class BuscarByIdQueryHandler : IRequestHandler<BuscarRolByIdQuery, ObjectResponse<RolResponse>>
+    public class BuscarRolByIdQueryHandler : IRequestHandler<BuscarRolByIdQuery, ObjectResponse<RolResponse>>
     {
         private readonly IRolUseCase rolUseCase;
 
-        public BuscarByIdQueryHandler(IRolUseCase rolUseCase)
+        public BuscarRolByIdQueryHandler(IRolUseCase rolUseCase)
         {
             this.rolUseCase = rolUseCase;
         }

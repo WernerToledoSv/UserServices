@@ -8,13 +8,14 @@ using WebApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 var services = builder.Services;
 
 services.AddControllers()
-    .AddJsonOptions(options => 
-    { 
-        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull; 
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles; 
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     });
 builder.Services.AddEndpointsApiExplorer();  // Habilitar la exploraci�n de endpoints para Swagger
 
@@ -70,7 +71,7 @@ try
 
     app.Run();
 }
-catch (Exception ex) 
+catch (Exception ex)
 {
     Log.Fatal(ex.Message);
 }

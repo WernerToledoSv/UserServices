@@ -13,6 +13,8 @@ namespace Application
             services.AddScoped<IUsuarioUseCase, UsuarioUseCase>();
             services.AddScoped<IRolUseCase, RolUseCase>();
             services.AddScoped<ILugarUseCase, LugarUseCase>();
+            services.AddScoped<IMisionUseCase, MisionUseCase>();
+            services.AddScoped<IUnionMisionLugarUseCase, UnionMisionLugarUseCase>();
         }
     }
 }

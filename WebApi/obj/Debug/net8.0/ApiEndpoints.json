@@ -106,6 +106,76 @@
   },
   {
     "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "BuscarLugarById",
+    "RelativePath": "api/v1/Lugar/Buscar-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
+    "Method": "BuscarLugarByNombre",
+    "RelativePath": "api/v1/Lugar/Buscar-Nombre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.LugarController",
     "Method": "EliminarLugar",
     "RelativePath": "api/v1/Lugar/Eliminar",
     "HttpMethod": "DELETE",
@@ -150,6 +220,245 @@
     "ReturnTypes": [
       {
         "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "ActualizarMision",
+    "RelativePath": "api/v1/Mision/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Mision.Commands.ActualizarMisionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "AgregarMision",
+    "RelativePath": "api/v1/Mision/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Mision.Commands.AgregarMisionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "BuscarMisionById",
+    "RelativePath": "api/v1/Mision/Buscar-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "BuscarMisionByNombre",
+    "RelativePath": "api/v1/Mision/Buscar-Nombre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "ActivarMision",
+    "RelativePath": "api/v1/Mision/CambiarEstado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Mision.Commands.CambiarEstadoMisionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "EliminarMision",
+    "RelativePath": "api/v1/Mision/Cancelar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Mision.Commands.CancelarMisionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "ObtenerMision",
+    "RelativePath": "api/v1/Mision/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -311,7 +620,7 @@
   {
     "ContainingType": "WebApi.Controller.v1.RolController",
     "Method": "BuscarRolByNombre",
-    "RelativePath": "api/v1/Rol/Burcar-Nombre",
+    "RelativePath": "api/v1/Rol/Buscar-Nombre",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -408,9 +717,184 @@
     ]
   },
   {
+    "ContainingType": "WebApi.Controller.v1.UnionMisionLugarController",
+    "Method": "ActualizarUnion",
+    "RelativePath": "api/v1/UnionMisionLugar/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.UnionMisionLugar.Commands.ActualizarUnionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UnionMisionLugarController",
+    "Method": "AgregarUnion",
+    "RelativePath": "api/v1/UnionMisionLugar/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.UnionMisionLugar.Commands.AgregarUnionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UnionMisionLugarController",
+    "Method": "EliminarRol",
+    "RelativePath": "api/v1/UnionMisionLugar/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.UnionMisionLugar.Commands.EliminarUnionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "ActivarUsuario",
+    "RelativePath": "api/v1/Usuario/Activar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Usuario.Commands.ActivarUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/v1/Usuario/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Usuario.Commands.ActualizarUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controller.v1.UsuarioController",
     "Method": "AgregarUsuario",
-    "RelativePath": "api/v1/Usuario/Agregar-Usuario",
+    "RelativePath": "api/v1/Usuario/Agregar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -419,6 +903,76 @@
         "Name": "rq",
         "Type": "Application.Feature.Usuario.Commands.IngresarUsuarioCommand",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "BuscarId",
+    "RelativePath": "api/v1/Usuario/Buscar-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "BuscarNombre",
+    "RelativePath": "api/v1/Usuario/Buscar-Nombre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pNombres",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -444,8 +998,43 @@
   },
   {
     "ContainingType": "WebApi.Controller.v1.UsuarioController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/v1/Usuario/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Usuario.Commands.EliminarUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.UsuarioResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.UsuarioController",
     "Method": "ObtenerUsuario",
-    "RelativePath": "api/v1/Usuario/Listado-Usuario",
+    "RelativePath": "api/v1/Usuario/Listado",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

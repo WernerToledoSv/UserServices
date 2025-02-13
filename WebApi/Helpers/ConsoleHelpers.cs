@@ -4,19 +4,19 @@ namespace WebApi.Helpers
 {
     public class ConsoleHelpers
     {
-        public static void ConfigurationDefaultCulture(ILogger logger, bool displayCulture = true) 
-        { 
+        public static void ConfigurationDefaultCulture(ILogger logger, bool displayCulture = true)
+        {
             CultureInfo cultureInfo = CultureInfo.GetCultureInfo("es-SV");
             CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
             CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
 
-            if (displayCulture) 
+            if (displayCulture)
             {
                 ShowDefaultCultureInfo(logger);
             }
         }
 
-        private static void ShowDefaultCultureInfo(ILogger logger) 
+        private static void ShowDefaultCultureInfo(ILogger logger)
         {
             var timeZone = TimeZoneInfo.Local;
             var currentCulture = CultureInfo.CurrentCulture;

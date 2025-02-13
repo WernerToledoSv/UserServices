@@ -1,5 +1,6 @@
 ﻿
 using Application.Feature.Lugar.Commands;
+using Application.Feature.Lugar.Queries;
 using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
@@ -9,13 +10,18 @@ namespace Application.UseCase
 {
     public class LugarUseCase : ILugarUseCase
     {
+        #region Atributos
         private readonly ILugarService _service;
+        #endregion
 
+        #region Constructor
         public LugarUseCase(ILugarService service)
         {
             _service = service;
         }
+        #endregion
 
+        #region Metodos
         public async Task<ObjectResponse<LugarResponse>> ActivarLugar(ActivarLugarCommand rq)
         {
             var response = new ObjectResponse<LugarResponse>();
@@ -71,7 +77,7 @@ namespace Application.UseCase
         public async Task<ObjectResponse<LugarResponse>> AgregarLugar(AgregarLugarCommand rq)
         {
             var response = new ObjectResponse<LugarResponse>();
-            
+
             var rs = await _service.AgregarLugar(rq);
 
             if (rs != null)
@@ -96,12 +102,35 @@ namespace Application.UseCase
             return response;
         }
 
-        public Task<ObjectResponse<LugarResponse>> BuscarLugarById()
+        public async Task<ObjectResponse<LugarResponse>> BuscarLugarById(BuscarLugarByIdQuery rq)
         {
-            throw new NotImplementedException();
+            var response = new ObjectResponse<LugarResponse>();
+
+            var rs = await _service.BuscarLugarById(rq);
+
+            if (rs != null)
+            {
+                response = new ObjectResponse<LugarResponse>
+                {
+                    Code = 1,
+                    Message = "Exito al encontrar el lugar por el id",
+                    Item = rs
+                };
+            }
+            else
+            {
+                response = new ObjectResponse<LugarResponse>
+                {
+                    Code = 0,
+                    Message = "Error al encontrar el lugar por el id",
+                    Item = null
+                };
+            }
+
+            return response;
         }
 
-        public Task<ListResponse<LugarResponse>> BuscarLugarByNombre()
+        public Task<ListResponse<LugarResponse>> BuscarLugarByNombre(BuscarLugarByNombreQuery rq)
         {
             throw new NotImplementedException();
         }
@@ -134,7 +163,7 @@ namespace Application.UseCase
 
         public async Task<ListResponse<LugarResponse>> ObtenerLugar()
         {
-            var response =  new ListResponse<LugarResponse>();
+            var response = new ListResponse<LugarResponse>();
             var rs = await _service.ObtenerLugar();
 
             if (rs[0].Id != 0)
@@ -157,5 +186,6 @@ namespace Application.UseCase
             }
             return response;
         }
+        #endregion
     }
 }

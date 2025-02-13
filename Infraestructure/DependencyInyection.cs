@@ -15,9 +15,11 @@ namespace Infraestructure
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
             #region Servicios
-            services.AddScoped<IUsuarioService, UsuarioService>();
-            services.AddScoped<IRolService, RolService>();
-            services.AddScoped<ILugarService, LugarService>();
+            services.AddScoped<IUsuarioService, UsuarioRepository>();
+            services.AddScoped<IRolService, RolRepository>();
+            services.AddScoped<ILugarService, LugarRepository>();
+            services.AddScoped<IMisionService, MisionRepository>();
+            services.AddScoped<IUnionMisionLugarService, UnionRepository>();
             #endregion
 
             #region Base de datos

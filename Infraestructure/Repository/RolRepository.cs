@@ -4,31 +4,33 @@ using Application.Feature.Rol.Queries;
 using Application.Interfaces.Services;
 using Dapper;
 using Domain.Entities.Services.Rol;
-using Domain.Entities.Services.Usuario;
 using Infraestructure.DbContext.Interface;
 
 namespace Infraestructure.Repository
 {
-    public class RolService : IRolService
+    public class RolRepository : IRolService
     {
         #region Atributos
         private readonly IAppDbContext _appDbContext;
         #endregion
-        public RolService(IAppDbContext appDbContext)
+
+        #region Constructor
+        public RolRepository(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
+        #endregion
 
+        #region Commands
         public async Task<RolResponse> ActivarRol(ActivarRolCommand rq)
         {
             string _query = @"SELECT * FROM funcActivarRol(@pId)";
             using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
-            
+
             var rs = await connection.QuerySingleOrDefaultAsync<RolResponse>(_query, rq);
             return rs;
         }
 
-        #region Metodos
         public async Task<RolResponse> ActualizarRol(ActualizarRolCommand rq)
         {
             string _query = @"SELECT * FROM funcActualizarRol(@pid, @pnombre, @pdescripcion)";
@@ -47,6 +49,17 @@ namespace Infraestructure.Repository
             return rs;
         }
 
+        public async Task<RolResponse> EliminarRol(EliminarRolCommand rq)
+        {
+            string _query = @"SELECT * FROM funcEliminarRol(@pId)";
+            using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
+
+            var rs = await connection.QuerySingleOrDefaultAsync<RolResponse>(_query, rq);
+            return rs;
+        }
+        #endregion
+
+        #region Queries
         public async Task<IList<RolResponse>> BuscarRolByNombre(BuscarRolByNombreQuery rq)
         {
             string _query = @"SELECT * FROM funcBuscarRolPorNombre(@pNombre)";
@@ -64,16 +77,6 @@ namespace Infraestructure.Repository
             var rs = await connection.QuerySingleOrDefaultAsync<RolResponse>(_query, rq);
             return rs;
         }
-
-        public async Task<RolResponse> EliminarRol(EliminarRolCommand rq)
-        {
-            string _query = @"SELECT * FROM funcEliminarRol(@pId)";
-            using var connection = _appDbContext.ObtenerConexion(); // Devuelve un IDbConnection válido
-
-            var rs = await connection.QuerySingleOrDefaultAsync<RolResponse>(_query, rq);
-            return rs;
-        }
-
         public async Task<IList<RolResponse>> ObtenerRoles()
         {
             string _query = @"SELECT * FROM funcleertodosroles()";
@@ -83,6 +86,5 @@ namespace Infraestructure.Repository
             return rs;
         }
         #endregion
-
     }
 }

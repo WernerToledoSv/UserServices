@@ -1,40 +1,39 @@
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
 using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Usuario;
 using MediatR;
+using System.ComponentModel.DataAnnotations;
 
 namespace Application.Feature.Usuario.Commands;
 
 public class IngresarUsuarioCommand : IRequest<ObjectResponse<UsuarioResponse>>
 {
-    [Required]
-    public int pIdRol { get; set; } // idrol INT
+    [Required(ErrorMessage = "EL campo pIdRol es obligatorio")]
+    public int pIdRol { get; set; }
 
-    [Required]
-    public int pIdLugar { get; set; } // idlugar INT
+    [Required(ErrorMessage = "EL campo pIdLugar es obligatorio")]
+    public int pIdLugar { get; set; }
 
-    [Required]
-    public string pUsername { get; set; } // username VARCHAR(100) NOT NULL UNIQUE
+    [Required(ErrorMessage = "EL campo pIdLugar es obligatorio")]
+    public string pUsername { get; set; }
 
-    [Required]
-    public string pPassword { get; set; } // password TEXT NOT NULL
+    [Required(ErrorMessage = "EL campo pPassword es obligatorio")]
+    public string pPassword { get; set; }
 
-    [Required]
+    [Required(ErrorMessage = "EL campo pNombres es obligatorio")]
     [MaxLength(255)]
-    public string pNombres { get; set; } // nombres VARCHAR(255) NOT NULL
+    public string pNombres { get; set; }
 
-    [Required]
+    [Required(ErrorMessage = "EL campo pApellidos es obligatorio")]
     [MaxLength(255)]
-    public string pApellidos { get; set; } // apellidos VARCHAR(255) NOT NULL
+    public string pApellidos { get; set; }
 
-    [Required]
-    public string pSexo { get; set; } // sexo ty_sexo NOT NULL (Assuming TySexo is an enum or a defined type)
+    [Required(ErrorMessage = "EL campo pSexo es obligatorio")]
+    public string pSexo { get; set; }
 
-    [Required]
-    public string pCel { get; set; } // cel VARCHAR(50) NOT NULL
+    [Required(ErrorMessage = "EL campo pCel es obligatorio")]
+    public string pCel { get; set; }
 
-    [Required]
+    [Required(ErrorMessage = "EL campo pEmaill es obligatorio")]
     [EmailAddress]
-    public string pEmail { get; set; } // email VARCHAR(255) NOT NULL UNIQUE
+    public string pEmail { get; set; }
 }

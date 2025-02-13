@@ -5,19 +5,23 @@ using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Rol;
-using MediatR;
 
 namespace Application.UseCase
 {
     public class RolUseCase : IRolUseCase
     {
+        #region Atributos
         private readonly IRolService _service;
+        #endregion
 
+        #region Constructor
         public RolUseCase(IRolService service)
         {
             _service = service;
         }
+        #endregion
 
+        #region Metodos
         public async Task<ObjectResponse<RolResponse>> ActivarRol(ActivarRolCommand rq)
         {
             var respose = new ObjectResponse<RolResponse>();
@@ -98,7 +102,7 @@ namespace Application.UseCase
 
         public async Task<ObjectResponse<RolResponse>> BuscarRolById(BuscarRolByIdQuery rq)
         {
-            var response = new ObjectResponse<RolResponse>();  
+            var response = new ObjectResponse<RolResponse>();
             var rs = await _service.BuscaRolById(rq);
 
             if (rs != null)
@@ -180,16 +184,16 @@ namespace Application.UseCase
             var rs = await _service.ObtenerRoles();
 
 
-            if (rs.Count > 0) 
-            { 
-                response = new ListResponse<RolResponse> 
-                { 
+            if (rs.Count > 0)
+            {
+                response = new ListResponse<RolResponse>
+                {
                     Code = 1,
                     Message = "Exito en la obtenecion de los roles",
                     Items = rs
                 };
             }
-            else 
+            else
             {
                 response = new ListResponse<RolResponse>
                 {
@@ -200,5 +204,6 @@ namespace Application.UseCase
             }
             return response;
         }
+        #endregion
     }
 }

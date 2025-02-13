@@ -1,7 +1,7 @@
-﻿using System.Data;
-using Application.Configuration.Interfaces;
+﻿using Application.Configuration.Interfaces;
 using Infraestructure.DbContext.Interface;
 using Npgsql;
+using System.Data;
 
 namespace Infraestructure.DbContext
 {
@@ -9,7 +9,7 @@ namespace Infraestructure.DbContext
     {
         private IDbConnection _IDbConnection;
         private readonly string _dbpath;
-        
+
 
         public AppDbContext(IProperties properties)
         {
