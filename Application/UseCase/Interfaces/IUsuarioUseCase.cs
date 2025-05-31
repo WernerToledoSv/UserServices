@@ -13,6 +13,7 @@ namespace Application.UseCase.Interfaces
         Task<ObjectResponse<UsuarioResponse>> BuscarUsuarioById(BuscarUsuarioByIdQuery rq);
         Task<ListResponse<UsuarioResponse>> BuscarUsuarioByNombre(BuscarUsuarioByNombreQuery rq);
         Task<ListResponse<UsuarioResponse>> ListadoUsuario();
+        Task<ObjectResponse<LoginResponse>> LoginUsuario(LoginUsuarioQuery rq);
         #endregion
 
         #region Commands

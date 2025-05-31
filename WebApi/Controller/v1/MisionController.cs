@@ -167,6 +167,31 @@ namespace WebApi.Controller.v1
             }
         }
 
+        [HttpPost("Activar")]
+        [ProducesResponseType(typeof(ObjectResponse<MisionResponse>), 200)]
+        [ProducesResponseType(typeof(GenericResponse), 500)]
+        public async Task<IActionResult> ActivarMision([FromBody] ActivarMisionCommand rq)
+        {
+            try
+            {
+                var rs = await Mediator.Send(rq);
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+
+                string message = $"Error fatal en la activación del mision. {ex.Message}";
+                _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
+                var rs = new GenericResponse()
+                {
+                    Code = 0,
+                    Message = message
+                };
+
+                return StatusCode(500, rs);
+            }
+        }
+
         [HttpPost("CambiarEstado")]
         [ProducesResponseType(typeof(ObjectResponse<MisionResponse>), 200)]
         [ProducesResponseType(typeof(GenericResponse), 500)]

@@ -8,7 +8,7 @@ namespace Application.Feature.Mision.Commands
     public class ActualizarMisionCommand : IRequest<ObjectResponse<MisionResponse>>
     {
         [Required]
-        public int pId { get; set; }
+        public long pId { get; set; }
         [Required]
         public string pNombre { get; set; }
         [Required]

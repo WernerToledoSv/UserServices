@@ -2,6 +2,7 @@
 using Application.Interfaces.Services;
 using Application.UseCase.Interfaces;
 using Domain.Entities.BaseResponse;
+using Domain.Entities.Services.UnionMisionLugar;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Application.UseCase
@@ -26,14 +27,11 @@ namespace Application.UseCase
                     Message = "Exito en la operación"
                 };
             }
-            else
+            return new GenericResponse()
             {
-                return new GenericResponse()
-                {
-                    Code = 1,
-                    Message = "Error en la operación"
-                };
-            }
+                Code = 0,
+                Message = "Error, no se encontró registro"
+            };
         }
 
         public async Task<GenericResponse> AgregarUnion(AgregarUnionCommand rq)
@@ -47,14 +45,11 @@ namespace Application.UseCase
                     Message = "Exito en la operación"
                 };
             }
-            else
+            return new GenericResponse()
             {
-                return new GenericResponse()
-                {
-                    Code = 1,
-                    Message = "Error en la operación"
-                };
-            }
+                Code = 0,
+                Message = "Los id no coinciden con los registros"
+            };
         }
 
         public async Task<GenericResponse> EliminarUnion(EliminarUnionCommand rq)
@@ -68,14 +63,33 @@ namespace Application.UseCase
                     Message = "Exito en la operación"
                 };
             }
-            else
+            return new GenericResponse()
             {
-                return new GenericResponse()
+                Code = 0,
+                Message = "Error, no se encontró registro"
+            };
+            
+        }
+
+        public async Task<ListResponse<ListadoUnionResponse>> ListadoUnion()
+        {
+            var rs = await _service.ListadoUnion();
+            if (rs.Any())
+            {
+                return new ListResponse<ListadoUnionResponse>
                 {
                     Code = 1,
-                    Message = "Error en la operación"
+                    Message = "Exito en la obtencion de datos",
+                    Items = rs
                 };
             }
+
+            return new ListResponse<ListadoUnionResponse>
+            {
+                Code = 0,
+                Message = "Error, no se encontraron registros.",
+                Items = null
+            };
         }
     }
 }

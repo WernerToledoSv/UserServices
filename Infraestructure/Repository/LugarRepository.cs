@@ -59,7 +59,7 @@ namespace Infraestructure.Repository
         }
         public async Task<LugarResponse> ActualizarLugar(ActualizarLugarCommand rq)
         {
-            string _query = @"SELECT * FROM funcActualizarLugar(@pId, @pNombre, @pHoraInicio::TIME, @pHoraFin::TIME)";
+            string _query = @"SELECT * FROM funcActualizarLugar(@pId, @pNombre, @pFecha::Date, @pHoraInicio::TIME, @pHoraFin::TIME)";
             using var connection = _appDbContext.ObtenerConexion();
             var rs = await connection.QuerySingleOrDefaultAsync<LugarResponse>(_query, rq);
             return rs;
@@ -67,7 +67,7 @@ namespace Infraestructure.Repository
 
         public async Task<LugarResponse> AgregarLugar(AgregarLugarCommand rq)
         {
-            string _query = @"SELECT * FROM funcagregarlugar(@pNombre, @pHoraInicio::TIME, @pHoraFin::TIME)";
+            string _query = @"SELECT * FROM funcagregarlugar(@pNombre, @pFecha::Date, @pHoraInicio::TIME, @pHoraFin::TIME)";
             using var connection = _appDbContext.ObtenerConexion();
 
             var rs = await connection.QuerySingleOrDefaultAsync<LugarResponse>(_query, rq);

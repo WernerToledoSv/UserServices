@@ -20,6 +20,7 @@ namespace Infraestructure
             services.AddScoped<ILugarService, LugarRepository>();
             services.AddScoped<IMisionService, MisionRepository>();
             services.AddScoped<IUnionMisionLugarService, UnionRepository>();
+            services.AddScoped<IEncriptacionService, EncriptacionRepository>();
             #endregion
 
             #region Base de datos

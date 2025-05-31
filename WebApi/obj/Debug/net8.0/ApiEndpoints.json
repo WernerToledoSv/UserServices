@@ -1,5 +1,45 @@
 [
   {
+    "ContainingType": "WebApi.Controller.v1.LoginController",
+    "Method": "LoginUsuario",
+    "RelativePath": "api/v1/Login/Validar-Credenciales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Usuario.LoginResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controller.v1.LugarController",
     "Method": "ActivarLugar",
     "RelativePath": "api/v1/Lugar/Activar",
@@ -114,7 +154,7 @@
     "Parameters": [
       {
         "Name": "pId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": false
       }
     ],
@@ -240,6 +280,41 @@
   },
   {
     "ContainingType": "WebApi.Controller.v1.MisionController",
+    "Method": "ActivarMision",
+    "RelativePath": "api/v1/Mision/Activar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Mision.Commands.ActivarMisionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.MisionController",
     "Method": "ActualizarMision",
     "RelativePath": "api/v1/Mision/Actualizar",
     "HttpMethod": "PUT",
@@ -318,7 +393,7 @@
     "Parameters": [
       {
         "Name": "pId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": false
       }
     ],
@@ -592,7 +667,7 @@
     "Parameters": [
       {
         "Name": "pId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": false
       }
     ],
@@ -822,6 +897,35 @@
     ]
   },
   {
+    "ContainingType": "WebApi.Controller.v1.UnionMisionLugarController",
+    "Method": "ListadoUnion",
+    "RelativePath": "api/v1/UnionMisionLugar/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.UnionMisionLugar.ListadoUnionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controller.v1.UsuarioController",
     "Method": "ActivarUsuario",
     "RelativePath": "api/v1/Usuario/Activar",
@@ -936,7 +1040,7 @@
     "Parameters": [
       {
         "Name": "pId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": false
       }
     ],

@@ -15,6 +15,71 @@
           }
         }
       },
+      "libsodium/1.0.20.1": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/ios-arm64/native/libsodium.a": {
+            "assetType": "native",
+            "rid": "ios-arm64"
+          },
+          "runtimes/linux-arm/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-arm/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm"
+          },
+          "runtimes/linux-musl-arm64/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libsodium.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/maccatalyst-arm64/native/libsodium.a": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libsodium.a": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/native/libsodium.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libsodium.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/tvos-arm64/native/libsodium.a": {
+            "assetType": "native",
+            "rid": "tvos-arm64"
+          },
+          "runtimes/win-arm64/native/libsodium.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libsodium.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libsodium.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -511,6 +576,22 @@
           }
         }
       },
+      "Sodium.Core/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "libsodium": "[1.0.20.1, 1.0.21)"
+        },
+        "compile": {
+          "lib/net8.0/Sodium.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Sodium.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/7.2.0": {
         "type": "package",
         "dependencies": {
@@ -668,7 +749,8 @@
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Settings.Configuration": "9.0.0",
           "Serilog.Sinks.Async": "2.1.0",
-          "Serilog.Sinks.File": "6.0.0"
+          "Serilog.Sinks.File": "6.0.0",
+          "Sodium.Core": "1.4.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -684,7 +766,8 @@
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Settings.Configuration": "9.0.0",
           "Serilog.Sinks.Async": "2.1.0",
-          "Serilog.Sinks.File": "6.0.0"
+          "Serilog.Sinks.File": "6.0.0",
+          "Sodium.Core": "1.4.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -706,7 +789,8 @@
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Settings.Configuration": "9.0.0",
           "Serilog.Sinks.Async": "2.1.0",
-          "Serilog.Sinks.File": "6.0.0"
+          "Serilog.Sinks.File": "6.0.0",
+          "Sodium.Core": "1.4.0"
         },
         "compile": {
           "bin/placeholder/Infraestructure.dll": {}
@@ -737,6 +821,35 @@
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml",
         "readme.md"
+      ]
+    },
+    "libsodium/1.0.20.1": {
+      "sha512": "pkiceEqJDQFHjbga3k/oPfTVX9g+GKJZ1VrkuiLhaymt9YNw1Dr7cX9hNuZuNaWcr9WD0moW55k4pMwzQ7JaZQ==",
+      "type": "package",
+      "path": "libsodium/1.0.20.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AUTHORS",
+        "ChangeLog",
+        "LICENSE",
+        "libsodium.1.0.20.1.nupkg.sha512",
+        "libsodium.nuspec",
+        "runtimes/ios-arm64/native/libsodium.a",
+        "runtimes/linux-arm/native/libsodium.so",
+        "runtimes/linux-arm64/native/libsodium.so",
+        "runtimes/linux-musl-arm/native/libsodium.so",
+        "runtimes/linux-musl-arm64/native/libsodium.so",
+        "runtimes/linux-musl-x64/native/libsodium.so",
+        "runtimes/linux-x64/native/libsodium.so",
+        "runtimes/maccatalyst-arm64/native/libsodium.a",
+        "runtimes/maccatalyst-x64/native/libsodium.a",
+        "runtimes/osx-arm64/native/libsodium.dylib",
+        "runtimes/osx-x64/native/libsodium.dylib",
+        "runtimes/tvos-arm64/native/libsodium.a",
+        "runtimes/win-arm64/native/libsodium.dll",
+        "runtimes/win-x64/native/libsodium.dll",
+        "runtimes/win-x86/native/libsodium.dll"
       ]
     },
     "MediatR/12.4.1": {
@@ -1705,6 +1818,31 @@
         "serilog.sinks.file.nuspec"
       ]
     },
+    "Sodium.Core/1.4.0": {
+      "sha512": "kHrsyfrcCEbqHIsI2QZ3oe5P5TzotDi9kFBLD44Zh6C8Q3OBoNjSvnSKKaNjL9xZcxS6nZOWb9aZjF8qsjG0yA==",
+      "type": "package",
+      "path": "sodium.core/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net8.0-ios18.0/Sodium.Core.dll",
+        "lib/net8.0-ios18.0/Sodium.Core.xml",
+        "lib/net8.0-maccatalyst18.0/Sodium.Core.dll",
+        "lib/net8.0-maccatalyst18.0/Sodium.Core.xml",
+        "lib/net8.0-tvos18.0/Sodium.Core.dll",
+        "lib/net8.0-tvos18.0/Sodium.Core.xml",
+        "lib/net8.0/Sodium.Core.dll",
+        "lib/net8.0/Sodium.Core.xml",
+        "lib/netstandard2.0/Sodium.Core.dll",
+        "lib/netstandard2.0/Sodium.Core.xml",
+        "lib/netstandard2.1/Sodium.Core.dll",
+        "lib/netstandard2.1/Sodium.Core.xml",
+        "sodium.core.1.4.0.nupkg.sha512",
+        "sodium.core.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/7.2.0": {
       "sha512": "vJv19UpWm6OOgnS9QLDnWARNVasXUfj8SFvlG7UVALm4nBnfwRnEky7C0veSDqMUmBeMPC6Ec3d6G1ts/J04Uw==",
       "type": "package",
@@ -1981,6 +2119,7 @@
       "Serilog.Settings.Configuration >= 9.0.0",
       "Serilog.Sinks.Async >= 2.1.0",
       "Serilog.Sinks.File >= 6.0.0",
+      "Sodium.Core >= 1.4.0",
       "Swashbuckle.AspNetCore >= 7.2.0",
       "Swashbuckle.AspNetCore.Swagger >= 7.2.0"
     ]
@@ -2063,6 +2202,10 @@
           "Serilog.Sinks.File": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "Sodium.Core": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

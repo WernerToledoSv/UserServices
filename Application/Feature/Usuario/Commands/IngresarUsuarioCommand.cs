@@ -8,10 +8,10 @@ namespace Application.Feature.Usuario.Commands;
 public class IngresarUsuarioCommand : IRequest<ObjectResponse<UsuarioResponse>>
 {
     [Required(ErrorMessage = "EL campo pIdRol es obligatorio")]
-    public int pIdRol { get; set; }
+    public long pIdRol { get; set; }
 
     [Required(ErrorMessage = "EL campo pIdLugar es obligatorio")]
-    public int pIdLugar { get; set; }
+    public long pIdLugar { get; set; }
 
     [Required(ErrorMessage = "EL campo pIdLugar es obligatorio")]
     public string pUsername { get; set; }

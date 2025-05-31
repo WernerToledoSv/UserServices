@@ -8,6 +8,6 @@ namespace Application.Feature.Mision.Queries
     public class BuscarMisionByIdQuery : IRequest<ObjectResponse<MisionResponse>>
     {
         [Required]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

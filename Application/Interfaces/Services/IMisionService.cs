@@ -1,6 +1,7 @@
 ﻿
 using Application.Feature.Mision.Commands;
 using Application.Feature.Mision.Queries;
+using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Mision;
 
 namespace Application.Interfaces.Services
@@ -11,6 +12,7 @@ namespace Application.Interfaces.Services
         Task<IList<MisionResponse>> ListadoMision();
         Task<MisionResponse> BuscarMisionByid(BuscarMisionByIdQuery rq);
         Task<IList<MisionResponse>> BuscarMisionByNombre(BuscarMisionByNombreQuery rq);
+        Task<MisionResponse> ActivarMision(ActivarMisionCommand rq);
         #endregion
 
         #region Commands

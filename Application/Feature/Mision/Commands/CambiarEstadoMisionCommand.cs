@@ -8,7 +8,7 @@ namespace Application.Feature.Mision.Commands
     public class CambiarEstadoMisionCommand : IRequest<ObjectResponse<MisionResponse>>
     {
         [Required]
-        public int pId { get; set; }
+        public long pId { get; set; }
         [Required]
         public string pEstado { get; set; }
     }

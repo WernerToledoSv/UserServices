@@ -9,6 +9,6 @@ namespace Application.Feature.Usuario.Queries
     public class BuscarUsuarioByIdQuery : IRequest<ObjectResponse<UsuarioResponse>>
     {
         [Required(ErrorMessage = "EL campo pId es obligatorio")]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using Application.Feature.UnionMisionLugar.Commands;
 using Application.Interfaces.Services;
 using Dapper;
+using Domain.Entities.Services.UnionMisionLugar;
 using Domain.Entities.Services.Usuario;
 using Infraestructure.DbContext.Interface;
 using Microsoft.AspNetCore.Mvc;
@@ -27,17 +28,14 @@ namespace Infraestructure.Repository
         {
             string _query = @"SELECT funcActualizarunion(@pid, @pidLugar, @pidMision)";
 
-            try
-            {
-                using var connection = _appDbContext.ObtenerConexion();
+            using var connection = _appDbContext.ObtenerConexion();
 
-                var rs = await connection.ExecuteAsync(_query, rq);
+            var rs = await connection.ExecuteAsync(_query, rq);
+            if (rs == 1)
+            {
                 return true;
             }
-            catch (Exception ex)
-            {
-                return false;
-            }
+            return false;
         }
 
         public async Task<bool> AgregarUnion(AgregarUnionCommand rq)
@@ -73,6 +71,20 @@ namespace Infraestructure.Repository
             {
                 return false;
             }
+        }
+
+        public async Task<IList<ListadoUnionResponse>> ListadoUnion()
+        {
+            string query = @"
+                               SELECT u.id, m.nombre as mision, m.fechainicio as fechainiciomision, m.fechafin as fechafinmision, l.fecha as fechalugar, m.descripcion, 
+                                l.nombre as lugar, l.horainicio, l.horafin   
+                            FROM unionmisionlugar u
+                            JOIN mision m ON u.idmision = m.id 
+                            JOIN lugar l ON u.idlugar = l.id;";
+            
+            using var connection = _appDbContext.ObtenerConexion();
+            var rs = (await connection.QueryAsync<ListadoUnionResponse>(query)).ToList();
+            return rs;
         }
         #endregion
     }

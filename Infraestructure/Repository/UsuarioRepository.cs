@@ -36,7 +36,7 @@ namespace Infraestructure.Repository
         public async Task<UsuarioResponse> ActualizarUsuario(ActualizarUsuarioCommand rq)
         {
             string _query = @"
-            SELECT * FROM funcActualizarUsuario(@pId, @pIdRol, @pIdLugar, @pUsername, @pPassword, @pNombres, @pApellidos, @pSexo::ty_sexo, @pCel, @pEmail, @pFechaIngreso, @pEstado::est_users)";
+            SELECT * FROM funcActualizarUsuario(@pId, @pIdRol, @pIdLugar, @pUsername, @pPassword, @pNombres, @pApellidos, @pSexo::ty_sexo, @pCel, @pEmail)";
 
             using var connection = _appDbContext.ObtenerConexion();
 
@@ -66,7 +66,7 @@ namespace Infraestructure.Repository
 
         #region Queries
 
-        public async Task<UsuarioResponse> BuscarById(BuscarUsuarioByIdQuery rq)
+        public async Task<UsuarioResponse> BuscarById(long rq)
         {
             string _query = @"SELECT * FROM funcLeerUsuarioPorId(@pId)";
             using var connection = _appDbContext.ObtenerConexion();
@@ -75,7 +75,7 @@ namespace Infraestructure.Repository
             return rs;
         }
 
-        public async Task<IList<UsuarioResponse>> BuscarUsuarioByNombre(BuscarUsuarioByNombreQuery rq)
+        public async Task<IList<UsuarioResponse>> BuscarUsuarioByNombre(string rq)
         {
             string _query = @"SELECT * FROM funcBuscarUsuarioPorNombres(@pNombres)";
             using var connection = _appDbContext.ObtenerConexion();
@@ -90,6 +90,16 @@ namespace Infraestructure.Repository
 
             using var connection = _appDbContext.ObtenerConexion();
             var rs = (await connection.QueryAsync<UsuarioResponse>(_query)).ToList();
+            return rs;
+        }
+
+        public async Task<LoginResponse> LoginUsuario(LoginUsuarioQuery rq)
+        {
+            string _query = @"SELECT * FROM funcValidarUsuario(@pUsername, @pPassword)";
+
+            using var connection = _appDbContext.ObtenerConexion();
+
+            var rs = await connection.QuerySingleOrDefaultAsync<LoginResponse>(_query, rq);
             return rs;
         }
         #endregion

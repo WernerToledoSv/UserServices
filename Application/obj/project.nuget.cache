@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B1zpLtCQb7E=",
+  "dgSpecHash": "18RV0xpKI4s=",
   "success": true,
   "projectFilePath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ale12\\.nuget\\packages\\libsodium\\1.0.20.1\\libsodium.1.0.20.1.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
@@ -28,6 +29,7 @@
     "C:\\Users\\ale12\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
+    "C:\\Users\\ale12\\.nuget\\packages\\sodium.core\\1.4.0\\sodium.core.1.4.0.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
     "C:\\Users\\ale12\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",

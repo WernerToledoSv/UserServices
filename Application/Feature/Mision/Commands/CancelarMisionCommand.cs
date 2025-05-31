@@ -8,6 +8,6 @@ namespace Application.Feature.Mision.Commands
     public class CancelarMisionCommand : IRequest<ObjectResponse<MisionResponse>>
     {
         [Required]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

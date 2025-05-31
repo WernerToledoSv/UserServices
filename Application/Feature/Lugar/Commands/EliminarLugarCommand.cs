@@ -8,6 +8,6 @@ namespace Application.Feature.Lugar.Commands
     public class EliminarLugarCommand : IRequest<ObjectResponse<LugarResponse>>
     {
         [Required(ErrorMessage = "El campo pId es obligatorio")]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

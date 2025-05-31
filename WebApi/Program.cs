@@ -1,13 +1,20 @@
 using Application;
 using Infraestructure;
+using Infraestructure.Configuration;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Text.Json.Serialization;
 using WebApi.Helpers;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
+//Para las configuraciones del log, las toma desde el appsettings   
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+// Vincular Serilog con la app
+builder.Host.UseSerilog();
 
 var services = builder.Services;
 
@@ -17,6 +24,17 @@ services.AddControllers()
         options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     });
+
+// Configuración de CORS para permitir cualquier origen
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()  // Permite cualquier origen
+              .AllowAnyMethod()  // Permite cualquier método HTTP (GET, POST, PUT, DELETE, etc.)
+              .AllowAnyHeader(); // Permite cualquier encabezado
+    });
+});
 builder.Services.AddEndpointsApiExplorer();  // Habilitar la exploraci�n de endpoints para Swagger
 
 services.AddApplication();
@@ -44,6 +62,7 @@ builder.Services.AddSwaggerGen(c =>
 try
 {
     var app = builder.Build();
+    app.UseCors("AllowAllOrigins");
     var logger = app.Logger;
 
     // Configuraci�n de Swagger UI
@@ -74,5 +93,9 @@ try
 catch (Exception ex)
 {
     Log.Fatal(ex.Message);
+}
+finally
+{
+    Log.CloseAndFlush();  // Importante: cierra y guarda todo antes de salir.
 }
 

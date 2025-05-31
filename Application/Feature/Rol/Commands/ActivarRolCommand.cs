@@ -10,6 +10,6 @@ namespace Application.Feature.Rol.Commands
     public class ActivarRolCommand : IRequest<ObjectResponse<RolResponse>>
     {
         [Required(ErrorMessage = "El campo pId es obligatorio")]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

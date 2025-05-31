@@ -72,6 +72,15 @@ namespace Infraestructure.Repository
             var rs = await connection.QuerySingleOrDefaultAsync<MisionResponse>(_query, rq);
             return rs;
         }
+
+        public async Task<MisionResponse> ActivarMision(ActivarMisionCommand rq)
+        {
+            string _query = @"SELECT * FROM funcActivarMision(@pId)";
+            using var connection = _appDbContext.ObtenerConexion();
+
+            var rs = await connection.QuerySingleOrDefaultAsync<MisionResponse>(_query, rq);
+            return rs;
+        }
         #endregion
 
         #region Queries

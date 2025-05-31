@@ -28,7 +28,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Item = rs
                 };
             }
@@ -54,7 +54,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Item = rs
                 };
             }
@@ -80,7 +80,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Item = rs
                 };
             }
@@ -106,7 +106,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Item = rs
                 };
             }
@@ -134,7 +134,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Item = rs
                 };
             }
@@ -160,7 +160,7 @@ namespace Application.UseCase
                 response = new ListResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Items = rs
                 };
             }
@@ -187,7 +187,7 @@ namespace Application.UseCase
                 response = new ListResponse<MisionResponse>()
                 {
                     Code = 1,
-                    Message = "Exito",
+                    Message = "Exito en el proceso",
                     Items = rs
                 };
             }
@@ -198,6 +198,31 @@ namespace Application.UseCase
                     Code = 0,
                     Message = "Error, no se encontraron registros",
                     Items = null
+                };
+            }
+            return response;
+        }
+
+        public async Task<ObjectResponse<MisionResponse>> ActivarMision(ActivarMisionCommand rq)
+        {
+            var response = new ObjectResponse<MisionResponse>();
+            var rs = await _service.ActivarMision(rq);
+            if(rs != null)
+            {
+                response = new ObjectResponse<MisionResponse>()
+                {
+                    Code = 1,
+                    Message = "Exito en el proceso",
+                    Item = rs
+                };
+            }
+            else
+            {
+                response = new ObjectResponse<MisionResponse>()
+                {
+                    Code = 0,
+                    Message = "Error en el proceso",
+                    Item = rs
                 };
             }
             return response;

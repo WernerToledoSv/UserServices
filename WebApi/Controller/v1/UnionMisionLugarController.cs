@@ -1,7 +1,9 @@
 ﻿using Application.Feature.Rol.Commands;
 using Application.Feature.UnionMisionLugar.Commands;
+using Application.Feature.UnionMisionLugar.Queries;
 using Domain.Entities.BaseResponse;
 using Domain.Entities.Services.Rol;
+using Domain.Entities.Services.UnionMisionLugar;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controller.v1
@@ -13,6 +15,31 @@ namespace WebApi.Controller.v1
         public UnionMisionLugarController(ILogger<UnionMisionLugarController> logger)
         {
             _logger = logger;
+        }
+
+        [HttpGet("Listado")]
+        [ProducesResponseType(typeof(ListResponse<ListadoUnionResponse>), 200)]
+        [ProducesResponseType(typeof(GenericResponse), 500)]
+        public async Task<IActionResult> ListadoUnion()
+        {
+            try
+            {
+                var rs = await Mediator.Send(new ListadoUnionQuery());
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+
+                string message = $"Error fatal al obtener el listado de la unión. {ex.Message}";
+                _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
+                var rs = new GenericResponse()
+                {
+                    Code = 0,
+                    Message = message
+                };
+
+                return StatusCode(500, rs);
+            }
         }
 
         [HttpPost("Agregar")]
@@ -38,7 +65,6 @@ namespace WebApi.Controller.v1
 
                 return StatusCode(500, rs);
             }
-
         }
 
         [HttpPut("Actualizar")]

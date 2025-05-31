@@ -10,8 +10,13 @@ namespace Application.Feature.Lugar.Commands
     {
         [Required(ErrorMessage = "El campo pNombre es obligatorio")]
         public string pNombre { get; set; }
+
+        [Required(ErrorMessage = "El campo pFecha es obligatorio")]
+        public DateTime pFecha { get; set; }
+
         [Required(ErrorMessage = "El campo pHoraInicio es obligatorio")]
         public TimeSpan pHoraInicio { get; set; }
+        
         [Required(ErrorMessage = "El campo pHoraFin es obligatorio")]
         public TimeSpan pHoraFin { get; set; }
     }

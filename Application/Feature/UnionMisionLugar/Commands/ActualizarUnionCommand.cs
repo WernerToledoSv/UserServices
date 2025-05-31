@@ -7,8 +7,8 @@ namespace Application.Feature.UnionMisionLugar.Commands
 {
     public class ActualizarUnionCommand : IRequest<GenericResponse>
     {
-        public int pId { get; set; }
-        public int pIdLugar { get; set; }
-        public int pIdMision { get; set; }
+        public long pId { get; set; }
+        public long pIdLugar { get; set; }
+        public long pIdMision { get; set; }
     }
 }

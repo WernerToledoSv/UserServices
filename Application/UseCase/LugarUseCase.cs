@@ -41,7 +41,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<LugarResponse>
                 {
                     Code = 0,
-                    Message = "Erro en la activacion del lugar",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -67,8 +67,8 @@ namespace Application.UseCase
                 response = new ObjectResponse<LugarResponse>
                 {
                     Code = 1,
-                    Message = "Error en la actualizacion de lugar",
-                    Item = rs
+                    Message = "Error, no se encontró registro",
+                    Item = null
                 };
             }
             return response;
@@ -122,7 +122,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<LugarResponse>
                 {
                     Code = 0,
-                    Message = "Error al encontrar el lugar por el id",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -130,9 +130,30 @@ namespace Application.UseCase
             return response;
         }
 
-        public Task<ListResponse<LugarResponse>> BuscarLugarByNombre(BuscarLugarByNombreQuery rq)
+        public async Task<ListResponse<LugarResponse>> BuscarLugarByNombre(BuscarLugarByNombreQuery rq)
         {
-            throw new NotImplementedException();
+            var response = new ListResponse<LugarResponse>();
+            var rs = await _service.BuscarLugarByNombre(rq);
+
+            if (rs[0].Id != 0)
+            {
+                response = new ListResponse<LugarResponse>
+                {
+                    Code = 1,
+                    Message = "Exito en la obtencion de datos",
+                    Items = rs
+                };
+            }
+            else
+            {
+                response = new ListResponse<LugarResponse>
+                {
+                    Code = 0,
+                    Message = "Error, no se encontraron registros",
+                    Items = null
+                };
+            }
+            return response;
         }
 
         public async Task<ObjectResponse<LugarResponse>> EliminarLugar(EliminarLugarCommand rq)
@@ -154,7 +175,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<LugarResponse>
                 {
                     Code = 0,
-                    Message = "Erro al eliminar el lugar",
+                    Message = "Error, no se encontro registro",
                     Item = null
                 };
             }
@@ -180,7 +201,7 @@ namespace Application.UseCase
                 response = new ListResponse<LugarResponse>
                 {
                     Code = 0,
-                    Message = "No hay datos",
+                    Message = "Error, no se encontraron registros",
                     Items = null
                 };
             }

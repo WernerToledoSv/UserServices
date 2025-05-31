@@ -9,6 +9,6 @@ namespace Application.Feature.Rol.Commands
     public class EliminarRolCommand : IRequest<ObjectResponse<RolResponse>>
     {
         [Required(ErrorMessage = "EL campo pId es obligatorio")]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace Application.UseCase.Interfaces
         Task<ListResponse<MisionResponse>> ListadoMision();
         Task<ObjectResponse<MisionResponse>> BuscarMisionByid(BuscarMisionByIdQuery rq);
         Task<ListResponse<MisionResponse>> BuscarMisionByNombre(BuscarMisionByNombreQuery rq);
+        Task<ObjectResponse<MisionResponse>> ActivarMision(ActivarMisionCommand rq);
         #endregion
 
         #region Commands

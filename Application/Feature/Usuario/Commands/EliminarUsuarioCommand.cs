@@ -7,6 +7,6 @@ namespace Application.Feature.Usuario.Commands
 {
     public class EliminarUsuarioCommand : IRequest<ObjectResponse<UsuarioResponse>>
     {
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

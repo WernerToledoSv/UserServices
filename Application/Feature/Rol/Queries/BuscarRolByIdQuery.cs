@@ -9,6 +9,6 @@ namespace Application.Feature.Rol.Queries
     public class BuscarRolByIdQuery : IRequest<ObjectResponse<RolResponse>>
     {
         [Required(ErrorMessage = "EL campo pId es obligatorio")]
-        public int pId { get; set; }
+        public long pId { get; set; }
     }
 }

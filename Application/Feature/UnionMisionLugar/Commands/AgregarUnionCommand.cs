@@ -6,7 +6,7 @@ namespace Application.Feature.UnionMisionLugar.Commands
 {
     public class AgregarUnionCommand : IRequest<GenericResponse>
     {
-        public int pIdLugar { get; set; }
-        public int pIdMision { get; set; }
+        public long pIdLugar { get; set; }
+        public long pIdMision { get; set; }
     }
 }

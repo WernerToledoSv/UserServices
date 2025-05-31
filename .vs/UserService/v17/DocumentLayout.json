@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\unionmisionlugar\\commands\\actualizarunioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\unionmisionlugar\\commands\\actualizarunioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\usuariousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\unionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\unionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\unionmisionlugar\\commands\\agregarunioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\unionmisionlugar\\commands\\agregarunioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\controller\\v1\\unionmisionlugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controller\\v1\\unionmisionlugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\dependencyinyection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\unionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\unionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\unionmisionlugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\unionmisionlugarusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\usuario\\commands\\actualizarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\usuario\\commands\\actualizarusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\iunionmisionlugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\iunionmisionlugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\mision\\commands\\actualizarmisioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\mision\\commands\\actualizarmisioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B258656-B164-41DA-A59A-0C2D1EDCA1F4}|Domain\\Domain.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\domain\\entities\\services\\usuario\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B258656-B164-41DA-A59A-0C2D1EDCA1F4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\services\\usuario\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\feature\\mision\\commands\\activarmisioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\feature\\mision\\commands\\activarmisioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\misionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\misionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\infraestructure\\repository\\misionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79E6C0A-FF0E-4D1E-9B62-50C7EB94A7A9}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repository\\misionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\controller\\v1\\misioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controller\\v1\\misioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\handler\\commands\\mision\\activarmisioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\handler\\commands\\mision\\activarmisioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\interfaces\\services\\imisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\services\\imisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\interfaces\\imisionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\interfaces\\imisionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B258656-B164-41DA-A59A-0C2D1EDCA1F4}|Domain\\Domain.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\domain\\entities\\services\\mision\\misionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B258656-B164-41DA-A59A-0C2D1EDCA1F4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\services\\mision\\misionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +74,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ActualizarUnionCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\UnionMisionLugar\\Commands\\ActualizarUnionCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Feature\\UnionMisionLugar\\Commands\\ActualizarUnionCommand.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\UnionMisionLugar\\Commands\\ActualizarUnionCommand.cs",
-              "RelativeToolTip": "Application\\Feature\\UnionMisionLugar\\Commands\\ActualizarUnionCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:07:50.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T19:27:18.448Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AgregarUnionCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\UnionMisionLugar\\Commands\\AgregarUnionCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Feature\\UnionMisionLugar\\Commands\\AgregarUnionCommand.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\UnionMisionLugar\\Commands\\AgregarUnionCommand.cs",
-              "RelativeToolTip": "Application\\Feature\\UnionMisionLugar\\Commands\\AgregarUnionCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAHAAAAAAAAAA==",
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Services\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:07:37.112Z",
+              "WhenOpened": "2025-05-22T19:24:21.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\UsuarioUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
+              "RelativeToolTip": "Application\\UseCase\\UsuarioUseCase.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwCAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:21:08.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DependencyInyection.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DependencyInyection.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\DependencyInyection.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\DependencyInyection.cs",
-              "RelativeToolTip": "Infraestructure\\DependencyInyection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:02:01.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DependencyInyection.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
-              "RelativeDocumentMoniker": "Application\\DependencyInyection.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\DependencyInyection.cs",
-              "RelativeToolTip": "Application\\DependencyInyection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:01:41.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UnionMisionLugarController.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UnionMisionLugarController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\UnionMisionLugarController.cs",
               "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\UnionMisionLugarController.cs",
               "RelativeToolTip": "WebApi\\Controller\\v1\\UnionMisionLugarController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:58:16.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T23:37:59.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnionMisionLugarUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UnionMisionLugarUseCase.cs",
-              "RelativeDocumentMoniker": "Application\\UseCase\\UnionMisionLugarUseCase.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UnionMisionLugarUseCase.cs",
-              "RelativeToolTip": "Application\\UseCase\\UnionMisionLugarUseCase.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwDgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:55:34.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUnionMisionLugarService.cs",
-              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUnionMisionLugarService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IUnionMisionLugarService.cs",
-              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IUnionMisionLugarService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\Services\\IUnionMisionLugarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:51:09.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UnionRepository.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UnionRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repository\\UnionRepository.cs",
               "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\UnionRepository.cs",
               "RelativeToolTip": "Infraestructure\\Repository\\UnionRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwFIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:40:54.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T23:11:16.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActualizarUsuarioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\ActualizarUsuarioCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Usuario\\Commands\\ActualizarUsuarioCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Usuario\\Commands\\ActualizarUsuarioCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Usuario\\Commands\\ActualizarUsuarioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T18:10:12.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Usuario\\UsuarioResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Services\\Usuario\\UsuarioResponse.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Usuario\\UsuarioResponse.cs",
+              "RelativeToolTip": "Domain\\Entities\\Services\\Usuario\\UsuarioResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:14:12.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActualizarMisionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Mision\\Commands\\ActualizarMisionCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Mision\\Commands\\ActualizarMisionCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Mision\\Commands\\ActualizarMisionCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Mision\\Commands\\ActualizarMisionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T05:09:56.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MisionController.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\MisionController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\MisionController.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\MisionController.cs",
+              "RelativeToolTip": "WebApi\\Controller\\v1\\MisionController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAwKkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:57:37.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MisionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\MisionRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\MisionRepository.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\MisionRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\MisionRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwE0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:52:43.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MisionUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\MisionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\MisionUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\MisionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCase\\MisionUseCase.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAYwKIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:50:26.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActivarMisionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\Mision\\ActivarMisionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\Commands\\Mision\\ActivarMisionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Handler\\Commands\\Mision\\ActivarMisionCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\Commands\\Mision\\ActivarMisionCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:47:29.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMisionService.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IMisionService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IMisionService.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IMisionService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Services\\IMisionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:46:18.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IMisionUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\Interfaces\\IMisionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\Interfaces\\IMisionUseCase.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\Interfaces\\IMisionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCase\\Interfaces\\IMisionUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:45:27.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActivarMisionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Mision\\Commands\\ActivarMisionCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Feature\\Mision\\Commands\\ActivarMisionCommand.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Mision\\Commands\\ActivarMisionCommand.cs",
+              "RelativeToolTip": "Application\\Feature\\Mision\\Commands\\ActivarMisionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:44:24.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MisionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Mision\\MisionResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Services\\Mision\\MisionResponse.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Mision\\MisionResponse.cs",
+              "RelativeToolTip": "Domain\\Entities\\Services\\Mision\\MisionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:25:44.96Z"
             }
           ]
         }

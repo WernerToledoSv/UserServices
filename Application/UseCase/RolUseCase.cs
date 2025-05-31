@@ -41,7 +41,7 @@ namespace Application.UseCase
                 respose = new ObjectResponse<RolResponse>
                 {
                     Code = 0,
-                    Message = "Error en la activación del rol",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -67,7 +67,7 @@ namespace Application.UseCase
                 respose = new ObjectResponse<RolResponse>
                 {
                     Code = 0,
-                    Message = "Error En la actualización del rol",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -119,7 +119,7 @@ namespace Application.UseCase
                 response = new ObjectResponse<RolResponse>
                 {
                     Code = 1,
-                    Message = "No existen datos",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -145,7 +145,7 @@ namespace Application.UseCase
                 respose = new ObjectResponse<RolResponse>
                 {
                     Code = 0,
-                    Message = "Error en la eliminación del rol",
+                    Message = "Error, no se encontró registro",
                     Item = null
                 };
             }
@@ -171,7 +171,7 @@ namespace Application.UseCase
                 response = new ListResponse<RolResponse>
                 {
                     Code = 0,
-                    Message = "No existen datos",
+                    Message = "Error, no se encontraron registros",
                     Items = null
                 };
             }
@@ -198,7 +198,7 @@ namespace Application.UseCase
                 response = new ListResponse<RolResponse>
                 {
                     Code = 0,
-                    Message = "No existen datos",
+                    Message = "Error, no se encontraron registros",
                     Items = null
                 };
             }
