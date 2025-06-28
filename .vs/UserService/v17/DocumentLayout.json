@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8E8F080-9DAF-456C-A5CB-8DCA6747CFC6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|c:\\users\\ale12\\onedrive\\escritorio\\services\\userservices\\application\\usecase\\interfaces\\ipacienteusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EEF1394-7022-4903-9FCC-7462E66F2ECE}|Application\\Application.csproj|solutionrelative:application\\usecase\\interfaces\\ipacienteusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,6 +86,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:38:46.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T04:20:02.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IPacienteUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\Interfaces\\IPacienteUseCase.cs",
               "RelativeDocumentMoniker": "Application\\UseCase\\Interfaces\\IPacienteUseCase.cs",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PacienteUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\PacienteUseCase.cs",
               "RelativeDocumentMoniker": "Application\\UseCase\\PacienteUseCase.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IPacienteService.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\IPacienteService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\IPacienteService.cs",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PacienteResponse.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Paciente\\PacienteResponse.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Services\\Paciente\\PacienteResponse.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ObtenerPacienteByNombreQuery.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Paciente\\Queries\\ObtenerPacienteByNombreQuery.cs",
               "RelativeDocumentMoniker": "Application\\Feature\\Paciente\\Queries\\ObtenerPacienteByNombreQuery.cs",
@@ -138,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ObtenerPacienteByLugarQuery.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Paciente\\Queries\\ObtenerPacienteByLugarQuery.cs",
               "RelativeDocumentMoniker": "Application\\Feature\\Paciente\\Queries\\ObtenerPacienteByLugarQuery.cs",
@@ -150,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "EditarPacienteCommand.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Paciente\\Commands\\EditarPacienteCommand.cs",
               "RelativeDocumentMoniker": "Application\\Feature\\Paciente\\Commands\\EditarPacienteCommand.cs",
@@ -162,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CrearPacienteCommand.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Feature\\Paciente\\Commands\\CrearPacienteCommand.cs",
               "RelativeDocumentMoniker": "Application\\Feature\\Paciente\\Commands\\CrearPacienteCommand.cs",
@@ -174,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LugarController.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\LugarController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\LugarController.cs",
@@ -186,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PacienteController.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\WebApi\\Controller\\v1\\PacienteController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controller\\v1\\PacienteController.cs",
@@ -198,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UsuarioUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\AppData\\Local\\SourceServer\\19e2ff28ec8abe45ef1f3e132e125bc437897510af62bd22d70940d14ec5ec1c\\Application\\UseCase\\UsuarioUseCase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\19e2ff28ec8abe45ef1f3e132e125bc437897510af62bd22d70940d14ec5ec1c\\Application\\UseCase\\UsuarioUseCase.cs",
@@ -211,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Usuario\\LoginResponse.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Services\\Usuario\\LoginResponse.cs",
@@ -223,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "LugarRepository.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Infraestructure\\Repository\\LugarRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repository\\LugarRepository.cs",
@@ -235,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ILugarService.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\Interfaces\\Services\\ILugarService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\Services\\ILugarService.cs",
@@ -247,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LugarResponse.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Domain\\Entities\\Services\\Lugar\\LugarResponse.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Services\\Lugar\\LugarResponse.cs",
@@ -259,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UsuarioUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ale12\\OneDrive\\Escritorio\\Services\\UserServices\\Application\\UseCase\\UsuarioUseCase.cs",
               "RelativeDocumentMoniker": "Application\\UseCase\\UsuarioUseCase.cs",
