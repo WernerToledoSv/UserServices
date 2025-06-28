@@ -14,6 +14,7 @@ namespace Application.Interfaces.Services
         Task<IList<LugarResponse>> BuscarLugarByNombre(BuscarLugarByNombreQuery rq);
         Task<IList<LugarResponse>> ObtenerLugar();
         Task<LugarResponse> ActivarLugar(ActivarLugarCommand rq);
+        Task<LugarResponse> ObtenerByFecha(DateTime fecha);
 
     }
 }

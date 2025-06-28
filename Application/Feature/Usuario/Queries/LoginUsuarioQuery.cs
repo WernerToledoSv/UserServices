@@ -10,6 +10,6 @@ namespace Application.Feature.Usuario.Queries
         [Required(ErrorMessage = "EL campo pUserName es obligatorio")]
         public string pUserName { get; set; }
         [Required(ErrorMessage = "EL campo pPassword es obligatorio")]
-        public string pPassword { get; set; }   
+        public string pPassword { get; set; }
     }
 }

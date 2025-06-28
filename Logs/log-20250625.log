@@ -1,0 +1,1131 @@
+2025-06-25 22:14:14 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 22:14:14 [Information] > Starting web host...
+2025-06-25 22:14:14 [Information] =============================================================
+2025-06-25 22:14:14 [Information] TimeZone                     :"(UTC-06:00) América Central"
+2025-06-25 22:14:14 [Information] Local time                   :06/25/2025 22:14:14
+2025-06-25 22:14:14 [Information] UTC Date                     :06/26/2025 04:14:14
+2025-06-25 22:14:14 [Information] Culture Name                 :"español (El Salvador)"
+2025-06-25 22:14:14 [Information] Native Culture Name          :"español (El Salvador)"
+2025-06-25 22:14:14 [Information] Format Date                  :"dddd, d 'de' MMMM 'de' yyyy"
+2025-06-25 22:14:14 [Information] Current Symbol               :"$"
+2025-06-25 22:14:14 [Information] Current Decimal Separator    :"."
+2025-06-25 22:14:14 [Information] Current Group Separator      :","
+2025-06-25 22:14:14 [Information] =============================================================
+2025-06-25 22:14:14 [Debug] Hosting starting
+2025-06-25 22:14:15 [Information] Now listening on: "https://localhost:7135"
+2025-06-25 22:14:15 [Information] Now listening on: "http://localhost:5098"
+2025-06-25 22:14:15 [Debug] Loaded hosting startup assembly "WebApi"
+2025-06-25 22:14:15 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.ApiEndpointDiscovery"
+2025-06-25 22:14:15 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2025-06-25 22:14:15 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2025-06-25 22:14:15 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 22:14:15 [Information] Hosting environment: "Development"
+2025-06-25 22:14:15 [Information] Content root path: "C:\Users\ale12\OneDrive\Escritorio\Services\UserServices\WebApi"
+2025-06-25 22:14:15 [Debug] Hosting started
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI7"" accepted.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI7"" started.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI7"" received FIN.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI8"" received FIN.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI8"" accepted.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI8"" started.
+2025-06-25 22:14:15 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-25 22:14:15 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI7"" stopped.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI8"" stopped.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI8"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI7"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI9"" accepted.
+2025-06-25 22:14:15 [Debug] Connection id ""0HNDKCVKRPVI9"" started.
+2025-06-25 22:14:15 [Debug] Connection "0HNDKCVKRPVI9" established using the following protocol: Tls12
+2025-06-25 22:14:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/index.html""" - null null
+2025-06-25 22:14:15 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 22:14:15 [Debug] No candidates found for the request path '"/index.html"'
+2025-06-25 22:14:15 [Debug] Request did not match any endpoints
+2025-06-25 22:14:15 [Debug] Response markup is scheduled to include Browser Link script injection.
+2025-06-25 22:14:15 [Debug] Response markup is scheduled to include browser refresh script injection.
+2025-06-25 22:14:15 [Debug] Response markup was updated to include Browser Link script injection.
+2025-06-25 22:14:15 [Debug] Response markup was updated to include browser refresh script injection.
+2025-06-25 22:14:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/index.html""" - 200 null "text/html;charset=utf-8" 316.9105ms
+2025-06-25 22:14:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/index.js""" - null null
+2025-06-25 22:14:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 22:14:15 [Debug] No candidates found for the request path '"/index.js"'
+2025-06-25 22:14:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/_vs/browserLink""" - null null
+2025-06-25 22:14:15 [Debug] Request did not match any endpoints
+2025-06-25 22:14:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/index.js""" - 200 null "application/javascript;charset=utf-8" 40.7852ms
+2025-06-25 22:14:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 46.671ms
+2025-06-25 22:14:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 121.0748ms
+2025-06-25 22:14:16 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/swagger/v1/swagger.json""" - null null
+2025-06-25 22:14:16 [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2025-06-25 22:14:16 [Debug] Request did not match any endpoints
+2025-06-25 22:14:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 213.4247ms
+2025-06-25 22:14:48 [Debug] Connection id ""0HNDKCVKRPVIA"" accepted.
+2025-06-25 22:14:48 [Debug] Connection id ""0HNDKCVKRPVIA"" started.
+2025-06-25 22:14:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Login/Validar-Credenciales""?pUsername=Agonzalez&pPassword=123" - null null
+2025-06-25 22:14:48 [Debug] 1 candidate(s) found for the request path '"/api/v1/Login/Validar-Credenciales"'
+2025-06-25 22:14:48 [Debug] Endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"' with route pattern '"api/v1/Login/Validar-Credenciales"' is valid for the request path '"/api/v1/Login/Validar-Credenciales"'
+2025-06-25 22:14:48 [Debug] Request matched endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"'
+2025-06-25 22:14:48 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:14:48 [Information] CORS policy execution successful.
+2025-06-25 22:14:48 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:48 [Debug] Https port '7135' loaded from configuration.
+2025-06-25 22:14:48 [Debug] Redirecting to '"https://localhost:7135/api/v1/Login/Validar-Credenciales?pUsername=Agonzalez&pPassword=123"'.
+2025-06-25 22:14:48 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:14:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Login/Validar-Credenciales""?pUsername=Agonzalez&pPassword=123" - 307 0 null 42.4462ms
+2025-06-25 22:14:48 [Debug] Connection id ""0HNDKCVKRPVIB"" accepted.
+2025-06-25 22:14:48 [Debug] Connection id ""0HNDKCVKRPVIB"" started.
+2025-06-25 22:14:48 [Debug] Connection "0HNDKCVKRPVIB" established using the following protocol: Tls12
+2025-06-25 22:14:48 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Login/Validar-Credenciales""?pUsername=Agonzalez&pPassword=123" - null null
+2025-06-25 22:14:48 [Debug] 1 candidate(s) found for the request path '"/api/v1/Login/Validar-Credenciales"'
+2025-06-25 22:14:48 [Debug] Endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"' with route pattern '"api/v1/Login/Validar-Credenciales"' is valid for the request path '"/api/v1/Login/Validar-Credenciales"'
+2025-06-25 22:14:48 [Debug] Request matched endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"'
+2025-06-25 22:14:48 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:14:48 [Information] CORS policy execution successful.
+2025-06-25 22:14:48 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:48 [Information] Executing endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"'
+2025-06-25 22:14:48 [Information] Route matched with "{action = \"LoginUsuario\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUsuario(Application.Feature.Usuario.Queries.LoginUsuarioQuery)" on controller "WebApi.Controller.v1.LoginController" ("WebApi").
+2025-06-25 22:14:48 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:14:48 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:14:48 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:14:48 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:14:48 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:14:48 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LoginController" ("WebApi")
+2025-06-25 22:14:48 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LoginController" ("WebApi")
+2025-06-25 22:14:48 [Debug] Attempting to bind parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"' ...
+2025-06-25 22:14:48 [Debug] Attempting to bind parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"' using the name '""' in request data ...
+2025-06-25 22:14:48 [Debug] Attempting to bind property '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"."pUserName"' of type '"System.String"' using the name '"pUserName"' in request data ...
+2025-06-25 22:14:48 [Debug] Done attempting to bind property '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"."pUserName"' of type '"System.String"'.
+2025-06-25 22:14:48 [Debug] Attempting to bind property '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"."pPassword"' of type '"System.String"' using the name '"pPassword"' in request data ...
+2025-06-25 22:14:48 [Debug] Done attempting to bind property '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"."pPassword"' of type '"System.String"'.
+2025-06-25 22:14:48 [Debug] Done attempting to bind parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"'.
+2025-06-25 22:14:48 [Debug] Done attempting to bind parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"'.
+2025-06-25 22:14:48 [Debug] Attempting to validate the bound parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"' ...
+2025-06-25 22:14:48 [Debug] Done attempting to validate the bound parameter '"rq"' of type '"Application.Feature.Usuario.Queries.LoginUsuarioQuery"'.
+2025-06-25 22:14:49 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:14:49 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:14:49 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:14:49 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:14:49 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:14:49 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ObjectResponse`1[[Domain.Entities.Services.Usuario.LoginResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:14:49 [Information] Executed action "WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)" in 1180.4004ms
+2025-06-25 22:14:49 [Information] Executed endpoint '"WebApi.Controller.v1.LoginController.LoginUsuario (WebApi)"'
+2025-06-25 22:14:49 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Login/Validar-Credenciales""?pUsername=Agonzalez&pPassword=123" - 200 null "application/json; charset=utf-8" 1259.7757ms
+2025-06-25 22:14:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - null null
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIC"" accepted.
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIC"" started.
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:14:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - null null
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] The request is a preflight request.
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:14:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - 204 null null 33.0747ms
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - "application/json" null
+2025-06-25 22:14:49 [Debug] The request is a preflight request.
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:14:49 [Debug] Endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"' with route pattern '"api/v1/Rol/Listado"' is valid for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - 204 null null 28.6503ms
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:49 [Debug] Redirecting to '"https://localhost:7135/api/v1/Rol/Listado"'.
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:14:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - 307 0 null 23.3848ms
+2025-06-25 22:14:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - "application/json" null
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - null null
+2025-06-25 22:14:49 [Debug] Endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"' with route pattern '"api/v1/Rol/Listado"' is valid for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:49 [Debug] The request is a preflight request.
+2025-06-25 22:14:49 [Debug] Redirecting to '"https://localhost:7135/api/v1/Rol/Listado"'.
+2025-06-25 22:14:49 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - 204 null null 44.5432ms
+2025-06-25 22:14:49 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:14:49 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - "application/json" null
+2025-06-25 22:14:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Rol/Listado""" - 307 0 null 55.9514ms
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"' with route pattern '"api/v1/Rol/Listado"' is valid for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:49 [Information] Executing endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Information] Route matched with "{action = \"ObtenerUsuario\", controller = \"Rol\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerUsuario()" on controller "WebApi.Controller.v1.RolController" ("WebApi").
+2025-06-25 22:14:49 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:14:49 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:14:49 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:14:49 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:14:49 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:14:49 [Debug] Executing controller factory for controller "WebApi.Controller.v1.RolController" ("WebApi")
+2025-06-25 22:14:49 [Debug] Executed controller factory for controller "WebApi.Controller.v1.RolController" ("WebApi")
+2025-06-25 22:14:49 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:14:49 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:14:49 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:14:49 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:14:49 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:14:49 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:14:49 [Information] Executed action "WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)" in 38.345ms
+2025-06-25 22:14:49 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - "application/json" null
+2025-06-25 22:14:49 [Information] Executed endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - 200 null "application/json; charset=utf-8" 79.8343ms
+2025-06-25 22:14:49 [Debug] Endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"' with route pattern '"api/v1/Rol/Listado"' is valid for the request path '"/api/v1/Rol/Listado"'
+2025-06-25 22:14:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:14:49 [Information] CORS policy execution successful.
+2025-06-25 22:14:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:14:49 [Information] Executing endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:49 [Information] Route matched with "{action = \"ObtenerUsuario\", controller = \"Rol\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerUsuario()" on controller "WebApi.Controller.v1.RolController" ("WebApi").
+2025-06-25 22:14:49 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:14:49 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:14:49 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:14:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:14:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:14:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.RolController" ("WebApi")
+2025-06-25 22:14:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.RolController" ("WebApi")
+2025-06-25 22:14:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:14:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:14:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:14:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:14:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:14:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Rol.RolResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:14:50 [Information] Executed action "WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)" in 18.9964ms
+2025-06-25 22:14:50 [Information] Executed endpoint '"WebApi.Controller.v1.RolController.ObtenerUsuario (WebApi)"'
+2025-06-25 22:14:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Rol/Listado""" - 200 null "application/json; charset=utf-8" 53.7483ms
+2025-06-25 22:16:34 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:16:34 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:16:34 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:16:34 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:16:34 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:16:34 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:16:34 [Information] CORS policy execution successful.
+2025-06-25 22:16:34 [Information] CORS policy execution successful.
+2025-06-25 22:16:34 [Debug] The request is a preflight request.
+2025-06-25 22:16:34 [Debug] The request is a preflight request.
+2025-06-25 22:16:34 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:16:34 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:16:34 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 26.7256ms
+2025-06-25 22:16:34 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 29.1526ms
+2025-06-25 22:16:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:16:34 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:34 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:16:34 [Information] CORS policy execution successful.
+2025-06-25 22:16:34 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:16:34 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:16:34 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:16:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 16.4833ms
+2025-06-25 22:16:34 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:16:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:16:34 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:16:34 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:34 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:16:34 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:34 [Information] CORS policy execution successful.
+2025-06-25 22:16:34 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:16:34 [Debug] The request is a preflight request.
+2025-06-25 22:16:34 [Information] CORS policy execution successful.
+2025-06-25 22:16:34 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 204 null null 32.0056ms
+2025-06-25 22:16:34 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:16:34 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:16:35 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:35 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:16:35 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:35 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:16:35 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 47.6824ms
+2025-06-25 22:16:35 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:16:35 [Information] CORS policy execution successful.
+2025-06-25 22:16:35 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:16:35 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:16:35 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:16:35 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:16:35 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:16:35 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:16:35 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:16:35 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:16:35 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:16:35 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:16:35 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:16:35 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:16:35 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 42.2537ms
+2025-06-25 22:16:35 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:16:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 94.8421ms
+2025-06-25 22:16:35 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:35 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:16:35 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:16:35 [Information] CORS policy execution successful.
+2025-06-25 22:16:35 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:16:35 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:16:35 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:16:35 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:16:35 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:16:35 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:16:35 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:16:35 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:16:35 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:16:35 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:16:35 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:16:35 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:16:35 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:16:35 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 22.794ms
+2025-06-25 22:16:35 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:16:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 67.7417ms
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVID"" accepted.
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIE"" accepted.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVID"" started.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIF"" accepted.
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIG"" accepted.
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIE"" started.
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIF"" started.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIG"" started.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 72.3529ms
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 204 null null 74.1518ms
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVID"" completed keep alive response.
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:14 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 73.381ms
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Debug] The request is a preflight request.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIE"" completed keep alive response.
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:14 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIF"" completed keep alive response.
+2025-06-25 22:19:14 [Debug] Connection id ""0HNDKCVKRPVIG"" completed keep alive response.
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 204 null null 70.2126ms
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:14 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 73.5074ms
+2025-06-25 22:19:14 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 73.4425ms
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Information] CORS policy execution successful.
+2025-06-25 22:19:14 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/Mision/Listado"'.
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 72.0276ms
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 307 0 null 70.4549ms
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/UnionMisionLugar/Listado"'.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVID"" completed keep alive response.
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 307 0 null 80.9582ms
+2025-06-25 22:19:15 [Debug] The request is a preflight request.
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:15 [Debug] The request is a preflight request.
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 204 null null 54.8888ms
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:19:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 204 null null 53.9568ms
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/Mision/Listado"'.
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVIA"" completed keep alive response.
+2025-06-25 22:19:15 [Debug] The request is a preflight request.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 91.3984ms
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVIC"" completed keep alive response.
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 66.0548ms
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 307 0 null 97.3631ms
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Redirecting to '"https://localhost:7135/api/v1/UnionMisionLugar/Listado"'.
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Debug] Connection id ""0HNDKCVKRPVID"" completed keep alive response.
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:19:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 307 0 null 87.5355ms
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ObtenerMision\", controller = \"Mision\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerMision()" on controller "WebApi.Controller.v1.MisionController" ("WebApi").
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ListadoUnion\", controller = \"UnionMisionLugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListadoUnion()" on controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi").
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 48.4292ms
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 177.4471ms
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.UnionMisionLugar.ListadoUnionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)" in 67.4067ms
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)" in 52.1955ms
+2025-06-25 22:19:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 200 null "application/json; charset=utf-8" 211.8603ms
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 200 null "application/json; charset=utf-8" 173.2884ms
+2025-06-25 22:19:15 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Information] CORS policy execution successful.
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Information] Executing endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ObtenerMision\", controller = \"Mision\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerMision()" on controller "WebApi.Controller.v1.MisionController" ("WebApi").
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:19:15 [Information] Route matched with "{action = \"ListadoUnion\", controller = \"UnionMisionLugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListadoUnion()" on controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi").
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Debug] Executing controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Debug] Executed controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 46.972ms
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:19:15 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 149.3454ms
+2025-06-25 22:19:15 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.UnionMisionLugar.ListadoUnionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)" in 41.2143ms
+2025-06-25 22:19:15 [Information] Executed action "WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)" in 41.3924ms
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:19:15 [Information] Executed endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 200 null "application/json; charset=utf-8" 145.5176ms
+2025-06-25 22:19:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 200 null "application/json; charset=utf-8" 143.409ms
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIE"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIF"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIC"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIE"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIF"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIG"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIF"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIA"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVID"" received FIN.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIE"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIA"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIE"" stopped.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVID"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIF"" stopped.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIC"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIG"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIA"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVID"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIC"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIG"" disconnecting.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIA"" stopped.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVID"" stopped.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIG"" stopped.
+2025-06-25 22:24:32 [Debug] Connection id ""0HNDKCVKRPVIC"" stopped.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIH"" accepted.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIH"" started.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVII"" accepted.
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIJ"" accepted.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVII"" started.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIJ"" started.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIK"" accepted.
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIL"" accepted.
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIM"" accepted.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIK"" started.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIL"" started.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIM"" started.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIH"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 204 null null 101.4594ms
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVII"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 93.2949ms
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 107.8949ms
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIK"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIL"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIM"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 204 null null 87.3438ms
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 88.1641ms
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 88.7264ms
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Redirecting to '"https://localhost:7135/api/v1/Mision/Listado"'.
+2025-06-25 22:31:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIH"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:31:49 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:49 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - null null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 307 0 null 84.2946ms
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVII"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] Redirecting to '"https://localhost:7135/api/v1/UnionMisionLugar/Listado"'.
+2025-06-25 22:31:49 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 81.7517ms
+2025-06-25 22:31:49 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - null null
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 307 0 null 81.8062ms
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:49 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:49 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:49 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:49 [Debug] The request is a preflight request.
+2025-06-25 22:31:49 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 204 null null 81.2194ms
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:49 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Debug] The request is a preflight request.
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 204 null null 83.8138ms
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Debug] Redirecting to '"https://localhost:7135/api/v1/Mision/Listado"'.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 204 null null 91.0511ms
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:50 [Debug] Connection id ""0HNDKCVKRPVIH"" completed keep alive response.
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Mision/Listado""" - 307 0 null 130.9256ms
+2025-06-25 22:31:50 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Debug] Connection id ""0HNDKCVKRPVII"" completed keep alive response.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Debug] Redirecting to '"https://localhost:7135/api/v1/UnionMisionLugar/Listado"'.
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 139.8728ms
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/UnionMisionLugar/Listado""" - 307 0 null 137.7767ms
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ListadoUnion\", controller = \"UnionMisionLugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListadoUnion()" on controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi").
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ObtenerMision\", controller = \"Mision\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerMision()" on controller "WebApi.Controller.v1.MisionController" ("WebApi").
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 70.5244ms
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.UnionMisionLugar.ListadoUnionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)" in 80.0925ms
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)" in 79.8293ms
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 220.3689ms
+2025-06-25 22:31:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - "application/json" null
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Debug] 1 candidate(s) found for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 200 null "application/json; charset=utf-8" 227.5104ms
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 200 null "application/json; charset=utf-8" 255.9651ms
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"' with route pattern '"api/v1/UnionMisionLugar/Listado"' is valid for the request path '"/api/v1/UnionMisionLugar/Listado"'
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Debug] Endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"' with route pattern '"api/v1/Mision/Listado"' is valid for the request path '"/api/v1/Mision/Listado"'
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] Request matched endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Information] CORS policy execution successful.
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:31:50 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Information] Executing endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ListadoUnion\", controller = \"UnionMisionLugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListadoUnion()" on controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi").
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Information] Route matched with "{action = \"ObtenerMision\", controller = \"Mision\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerMision()" on controller "WebApi.Controller.v1.MisionController" ("WebApi").
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] Executing controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.UnionMisionLugarController" ("WebApi")
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Executed controller factory for controller "WebApi.Controller.v1.MisionController" ("WebApi")
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 78.1052ms
+2025-06-25 22:31:50 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:31:50 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.UnionMisionLugar.ListadoUnionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 208.157ms
+2025-06-25 22:31:50 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Mision.MisionResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)" in 78.0397ms
+2025-06-25 22:31:50 [Information] Executed action "WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)" in 73.2998ms
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.UnionMisionLugarController.ListadoUnion (WebApi)"'
+2025-06-25 22:31:50 [Information] Executed endpoint '"WebApi.Controller.v1.MisionController.ObtenerMision (WebApi)"'
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/UnionMisionLugar/Listado""" - 200 null "application/json; charset=utf-8" 212.4973ms
+2025-06-25 22:31:50 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Mision/Listado""" - 200 null "application/json; charset=utf-8" 213.1415ms
+2025-06-25 22:32:01 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:32:01 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Debug] The request is a preflight request.
+2025-06-25 22:32:01 [Debug] The request is a preflight request.
+2025-06-25 22:32:01 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:32:01 [Debug] Connection id ""0HNDKCVKRPVII"" completed keep alive response.
+2025-06-25 22:32:01 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 31.3984ms
+2025-06-25 22:32:01 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 30.1795ms
+2025-06-25 22:32:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:32:01 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:32:01 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:32:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 31.6679ms
+2025-06-25 22:32:01 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:32:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:32:01 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:32:01 [Debug] The request is a preflight request.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 204 null null 27.0959ms
+2025-06-25 22:32:01 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:32:01 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:32:01 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:32:01 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 40.0999ms
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:32:01 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:32:01 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:32:01 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:32:01 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:32:01 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:32:01 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:32:01 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:32:01 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:32:01 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:32:01 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:32:01 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:32:01 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 18.6852ms
+2025-06-25 22:32:01 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:32:01 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 71.9886ms
+2025-06-25 22:32:01 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:32:01 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:32:01 [Information] CORS policy execution successful.
+2025-06-25 22:32:01 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:32:01 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:32:01 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:32:01 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:32:01 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:32:01 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:32:01 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:32:01 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:32:01 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:32:01 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:32:01 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:32:01 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:32:01 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:32:01 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 21.9026ms
+2025-06-25 22:32:01 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:32:01 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 64.7211ms
+2025-06-25 22:36:07 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:36:07 [Information] Request starting "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Debug] The request is a preflight request.
+2025-06-25 22:36:07 [Debug] The request is a preflight request.
+2025-06-25 22:36:07 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:36:07 [Debug] Connection id ""0HNDKCVKRPVII"" completed keep alive response.
+2025-06-25 22:36:07 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 34.5389ms
+2025-06-25 22:36:07 [Information] Request finished "HTTP/1.1" "OPTIONS" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 204 null null 31.9257ms
+2025-06-25 22:36:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:36:07 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:36:07 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:36:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 30.8306ms
+2025-06-25 22:36:07 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - null null
+2025-06-25 22:36:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"405 HTTP Method Not Supported"'
+2025-06-25 22:36:07 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"http://localhost:5173"'.
+2025-06-25 22:36:07 [Debug] The request is a preflight request.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 204 null null 24.6717ms
+2025-06-25 22:36:07 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:36:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:36:07 [Debug] Redirecting to '"https://localhost:7135/api/v1/Lugar/Listado"'.
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Connection id ""0HNDKCVKRPVIJ"" completed keep alive response.
+2025-06-25 22:36:07 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5098""""/api/v1/Lugar/Listado""" - 307 0 null 34.9935ms
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:36:07 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:36:07 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:36:07 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:36:07 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:36:07 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:36:07 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:36:07 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:36:07 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:36:07 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:36:07 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:36:07 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:36:07 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 21.8261ms
+2025-06-25 22:36:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - "application/json" null
+2025-06-25 22:36:07 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Debug] 1 candidate(s) found for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 81.6744ms
+2025-06-25 22:36:07 [Debug] Endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"' with route pattern '"api/v1/Lugar/Listado"' is valid for the request path '"/api/v1/Lugar/Listado"'
+2025-06-25 22:36:07 [Debug] Request matched endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Debug] The request has an origin header: '"null"'.
+2025-06-25 22:36:07 [Information] CORS policy execution successful.
+2025-06-25 22:36:07 [Debug] Static files was skipped as the request already matched an endpoint.
+2025-06-25 22:36:07 [Information] Executing endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Information] Route matched with "{action = \"ObtenerLugar\", controller = \"Lugar\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerLugar()" on controller "WebApi.Controller.v1.LugarController" ("WebApi").
+2025-06-25 22:36:07 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-25 22:36:07 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2025-06-25 22:36:07 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-25 22:36:07 [Debug] Executing controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:36:07 [Debug] Executed controller factory for controller "WebApi.Controller.v1.LugarController" ("WebApi")
+2025-06-25 22:36:07 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-25 22:36:07 [Debug] No information found on request to perform content negotiation.
+2025-06-25 22:36:07 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-25 22:36:07 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-25 22:36:07 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2025-06-25 22:36:07 [Information] Executing "OkObjectResult", writing value of type '"Domain.Entities.BaseResponse.ListResponse`1[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 22:36:07 [Information] Executed action "WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)" in 22.4962ms
+2025-06-25 22:36:07 [Information] Executed endpoint '"WebApi.Controller.v1.LugarController.ObtenerLugar (WebApi)"'
+2025-06-25 22:36:07 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7135""""/api/v1/Lugar/Listado""" - 200 null "application/json; charset=utf-8" 65.465ms
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIK"" received FIN.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIL"" received FIN.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIK"" disconnecting.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIL"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIM"" received FIN.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIL"" disconnecting.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIH"" received FIN.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIK"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIK"" stopped.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIH"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIL"" stopped.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIM"" disconnecting.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIH"" disconnecting.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIM"" stopped.
+2025-06-25 22:36:57 [Debug] Connection id ""0HNDKCVKRPVIH"" stopped.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVII"" received FIN.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVIJ"" received FIN.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVII"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVIJ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVII"" disconnecting.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVIJ"" disconnecting.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVII"" stopped.
+2025-06-25 22:41:57 [Debug] Connection id ""0HNDKCVKRPVIJ"" stopped.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVI9"" received FIN.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVIB"" received FIN.
+2025-06-25 22:48:20 [Debug] The connection queue processing loop for "0HNDKCVKRPVI9" completed.
+2025-06-25 22:48:20 [Debug] The connection queue processing loop for "0HNDKCVKRPVIB" completed.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVIB"" is closed. The last processed stream ID was 61.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVI9"" is closed. The last processed stream ID was 9.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVIB"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVI9"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVI9"" stopped.
+2025-06-25 22:48:20 [Debug] Connection id ""0HNDKCVKRPVIB"" stopped.

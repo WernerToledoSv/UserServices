@@ -81,6 +81,15 @@ namespace Infraestructure.Repository
             var rs = await connection.QuerySingleOrDefaultAsync<LugarResponse>(_query, rq);
             return rs;
         }
+
+        public async Task<LugarResponse> ObtenerByFecha(DateTime fecha)
+        {
+            string _query = @"select * from lugar l 
+                                where l.estado ='A' and l.fecha = :fecha";
+            using var connection = _appDbContext.ObtenerConexion();
+            var rs = await connection.QuerySingleOrDefaultAsync<LugarResponse>(_query, new { fecha });
+            return rs;
+        }
         #endregion
     }
 }

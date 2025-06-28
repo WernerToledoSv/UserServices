@@ -12,16 +12,17 @@ namespace Application.UseCase
     public class UsuarioUseCase : IUsuarioUseCase
     {
         #region Atributos
-        private readonly IUsuarioService _service;
+        private readonly IUsuarioService _usuarioService;
         private readonly IEncriptacionService _encriptacionService;
-
+        private readonly ILugarService _lugarService;
         #endregion
 
         #region Constructor
-        public UsuarioUseCase(IUsuarioService service, IEncriptacionService encriptacionService)
+        public UsuarioUseCase(IUsuarioService usuarioService, IEncriptacionService encriptacionService, ILugarService lugarService)
         {
-            _service = service;
+            _usuarioService = usuarioService;
             _encriptacionService = encriptacionService;
+            _lugarService = lugarService;
         }
         #endregion
 
@@ -30,7 +31,7 @@ namespace Application.UseCase
         {
             var rs = new ObjectResponse<UsuarioResponse>();
 
-            var bandExiste = await _service.BuscarById(rq.pId);
+            var bandExiste = await _usuarioService.BuscarById(rq.pId);
             if (bandExiste ==  null)
             {
                 rs = new ObjectResponse<UsuarioResponse>
@@ -42,7 +43,7 @@ namespace Application.UseCase
                 return rs;
             }
 
-            var response = await _service.ActivarUsuario(rq);
+            var response = await _usuarioService.ActivarUsuario(rq);
             if (response != null)
             {
                 response.Password = _encriptacionService.Desencriptar(response.Password);
@@ -70,7 +71,7 @@ namespace Application.UseCase
             var rs = new ObjectResponse<UsuarioResponse>();
             rq.pPassword = _encriptacionService.Encriptar(rq.pPassword);
 
-            var response = await _service.ActualizarUsuario(rq);
+            var response = await _usuarioService.ActualizarUsuario(rq);
             if (response != null)
             {
                 response.Password = _encriptacionService.Desencriptar(response.Password);
@@ -100,7 +101,7 @@ namespace Application.UseCase
 
             rq.pPassword = _encriptacionService.Encriptar(rq.pPassword);
 
-            var usuarioIngresado = await _service.AgregarUsuario(rq);
+            var usuarioIngresado = await _usuarioService.AgregarUsuario(rq);
             if (usuarioIngresado != null)
             {
                 usuarioIngresado.Password = _encriptacionService.Desencriptar(usuarioIngresado.Password);
@@ -128,7 +129,7 @@ namespace Application.UseCase
         {
             var rs = new ObjectResponse<UsuarioResponse>();
 
-            var response = await _service.BuscarById(rq.pId);
+            var response = await _usuarioService.BuscarById(rq.pId);
             if (response != null)
             {
                 response.Password = _encriptacionService.Desencriptar(response.Password); 
@@ -156,7 +157,7 @@ namespace Application.UseCase
         {
             var rs = new ListResponse<UsuarioResponse>();
 
-            var response = await _service.BuscarUsuarioByNombre(rq.pNombres);
+            var response = await _usuarioService.BuscarUsuarioByNombre(rq.pNombres);
             if (response.Any())
             {
                 ((List<UsuarioResponse>)response).ForEach(usuario => usuario.Password = _encriptacionService.Desencriptar(usuario.Password));
@@ -184,7 +185,7 @@ namespace Application.UseCase
         {
             var rs = new ObjectResponse<UsuarioResponse>();
 
-            var response = await _service.EliminarUsuario(rq);
+            var response = await _usuarioService.EliminarUsuario(rq);
             if (response != null)
             {
                 response.Password = _encriptacionService.Desencriptar(response.Password);
@@ -212,7 +213,7 @@ namespace Application.UseCase
         {
             var rs = new ListResponse<UsuarioResponse>();
 
-            var lusuario = await _service.ListadoUsuario();
+            var lusuario = await _usuarioService.ListadoUsuario();
 
             if (lusuario.Count != 0 && lusuario != null)
             {
@@ -241,9 +242,16 @@ namespace Application.UseCase
             var rs = new ObjectResponse<LoginResponse>();
             rq.pPassword = _encriptacionService.Encriptar(rq.pPassword);
 
-            var login = await _service.LoginUsuario(rq);
-            if (login!=null && login.IdRol > 0) 
+            var login = await _usuarioService.LoginUsuario(rq);
+            if (login!=null) 
             {
+                var lugarFecha = await _lugarService.ObtenerByFecha(DateTime.Today);
+                if (lugarFecha != null)
+                {
+                    login.IdLugar = lugarFecha.Id;
+                    login.NombreLugar = lugarFecha.Nombre;
+                }
+
                 rs = new ObjectResponse<LoginResponse>
                 {
                     Code = 1,

@@ -1,0 +1,20 @@
+services:
+  ServicioUs:
+    build:
+      context: .
+      dockerfile: WebApi/Dockerfile
+    image: serviciousuario-api:1.0
+    container_name: serviciousuario_svc
+    ports:
+      - "6430:80"
+      - "6431:443"
+    volumes:
+      - ./cert/https:/https/
+    env_file:
+      - ./Envs/app.env
+    restart: always
+    networks:
+      default:
+        external: true
+        name: services_default
+usercert5

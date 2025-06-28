@@ -66,12 +66,12 @@ namespace Infraestructure.Repository
 
         #region Queries
 
-        public async Task<UsuarioResponse> BuscarById(long rq)
+        public async Task<UsuarioResponse> BuscarById(long pId)
         {
             string _query = @"SELECT * FROM funcLeerUsuarioPorId(@pId)";
             using var connection = _appDbContext.ObtenerConexion();
 
-            var rs = await connection.QuerySingleOrDefaultAsync<UsuarioResponse>(_query, rq);
+            var rs = await connection.QuerySingleOrDefaultAsync<UsuarioResponse>(_query, new { pId });
             return rs;
         }
 

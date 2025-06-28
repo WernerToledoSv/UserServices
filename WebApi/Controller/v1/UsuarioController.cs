@@ -176,7 +176,7 @@ public class UsuarioController : BaseApiController
         }
         catch (Exception ex)
         {
-            string message = $"Error fatal al eliminar el usuario. {ex.Message}";
+            string message = $"Error fatal al activar el usuario. {ex.Message}";
             _logger.LogError(ex, "{Message} -> {EMessage}", message, ex.Message);
             var rs = new GenericResponse()
             {
