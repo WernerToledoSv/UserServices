@@ -61,3 +61,4 @@ COPY --from=publish /app/publish .
 
 # Entrypoint
 ENTRYPOINT ["dotnet", "WebApi.dll"]
+    
