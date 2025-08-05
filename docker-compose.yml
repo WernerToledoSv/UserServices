@@ -7,7 +7,7 @@ services:
     container_name: userservice_svc
     ports:
       - "6430:80"
-      - "7135:443"
+      - "6431:443"
     volumes:
       - ./Certs/https:/https/
     env_file:
@@ -15,7 +15,6 @@ services:
     restart: always
     networks:
       - services_default
-
 networks:
   services_default:
     external: true

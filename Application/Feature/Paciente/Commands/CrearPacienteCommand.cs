@@ -15,19 +15,25 @@ namespace Application.Feature.Paciente.Commands
         public string Apellidos { get; set; }
 
         [Required(ErrorMessage = "La edad es obligatoria.")]
-        [Range(1, 120, ErrorMessage = "La edad debe estar entre 0 y 90 años.")]
+        [Range(1, 90, ErrorMessage = "La edad debe estar entre 0 y 90 años.")]
         public long Edad { get; set; }
 
         [Required(ErrorMessage = "El campo Sexo es obligatorio.")]
         public string Sexo { get; set; } // Si tienes un enum en C#, se puede cambiar a un tipo enumerado.
 
-        [Required(ErrorMessage = "El número de celular es obligatorio.")]
-        [StringLength(50, ErrorMessage = "El número de celular no puede exceder los 50 caracteres.")]
-        public string Cel { get; set; }
+        [StringLength(8, ErrorMessage = "El número de celular no puede exceder los 8 caracteres.")]
+        public string? Cel { get; set; }
 
         [StringLength(1000, ErrorMessage = "La dirección no puede exceder los 1000 caracteres.")]
         public string? Direccion { get; set; }
 
-        public long? IdLugar { get; set; }
+        [Required(ErrorMessage = "El campo de IdLugar es obligatorio.")]
+        public long IdLugar { get; set; }
+
+        [Required(ErrorMessage = "El campo de tipoconsulta es obligatorio.")]
+        public string tipoconsulta { get; set; }
+
+        [Required(ErrorMessage = "El campo de tipopaciente es obligatorio.")]
+        public string tipopaciente { get; set; }
     }
 }

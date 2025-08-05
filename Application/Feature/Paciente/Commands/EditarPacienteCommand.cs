@@ -7,7 +7,7 @@ namespace Application.Feature.Paciente.Commands
     public class EditarPacienteCommand : IRequest<GenericResponse>
     {
         [Required(ErrorMessage = "El campo id es obligatorio")]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [Required(ErrorMessage = "El campo Nombres es obligatorio.")]
         [StringLength(255, ErrorMessage = "El campo Nombres no puede exceder los 255 caracteres.")]
@@ -19,18 +19,25 @@ namespace Application.Feature.Paciente.Commands
 
         [Required(ErrorMessage = "La edad es obligatoria.")]
         [Range(0, 120, ErrorMessage = "La edad debe estar entre 0 y 120 años.")]
-        public int Edad { get; set; }
+        public long Edad { get; set; }
 
         [Required(ErrorMessage = "El campo Sexo es obligatorio.")]
         public string Sexo { get; set; } // Si tienes un enum en C#, se puede cambiar a un tipo enumerado.
 
         [Required(ErrorMessage = "El número de celular es obligatorio.")]
-        [StringLength(50, ErrorMessage = "El número de celular no puede exceder los 50 caracteres.")]
+        [StringLength(8, ErrorMessage = "El número de celular no puede exceder los 8 caracteres.")]
         public string Cel { get; set; }
 
         [StringLength(1000, ErrorMessage = "La dirección no puede exceder los 1000 caracteres.")]
         public string? Direccion { get; set; }
 
-        public int? IdLugar { get; set; }
+        [Required(ErrorMessage = "El campo de IdLugar es obligatorio.")]
+        public long IdLugar { get; set; }
+
+        [Required(ErrorMessage = "El campo de tipoconsulta es obligatorio.")]
+        public string tipoconsulta { get; set; }
+
+        [Required(ErrorMessage = "El campo de tipopaciente es obligatorio.")]
+        public string tipopaciente { get; set; }
     }
 }

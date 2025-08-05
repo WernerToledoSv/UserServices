@@ -76,7 +76,7 @@ try
             c.RoutePrefix = string.Empty;  // Swagger UI estar� disponible en /clinica
         });
     }
-
+    
     // Middleware que maneja las solicitudes https y http
     app.UseHttpsRedirection();
     app.UseAuthorization();

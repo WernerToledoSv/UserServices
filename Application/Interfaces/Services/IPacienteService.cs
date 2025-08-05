@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.Feature.Paciente.Commands;
+using Domain.Entities.Services.Paciente;
 
 namespace Application.Interfaces.Services
 {
-    internal class IPacienteService
+    public interface IPacienteService
     {
+        Task<bool> CrearPaciente(CrearPacienteCommand rq);
+        Task<bool> EditarPaciente(EditarPacienteCommand rq);
+        Task<bool> EstadoAtendido(long idPaciente);
+        Task<IList<PacienteResponse>> ObtenerPacienteByLugar(long idLugar);
+        Task<PacienteResponse> ObtenerPacienteById(long idPaciente);
+        Task<IList<PacienteResponse>> ObtenerPacienteByNombre(string nombreLugar);
+        Task<PacienteResponse> ObtenerPacienteByNombreIgual(string nombrePaciente);
     }
 }

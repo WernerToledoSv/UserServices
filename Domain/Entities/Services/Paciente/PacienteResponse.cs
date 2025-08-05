@@ -8,7 +8,11 @@
         public int Edad { get; set; }
         public string Sexo { get; set; }
         public string Cel { get; set; }
-        public string? Direccion { get; set; }
-        public int? IdLugar { get; set; }
+        public string Direccion { get; set; }
+        public int IdLugar { get; set; }
+        public string NombreLugar { get; set; }
+        public string tipoconsulta { get; set; }
+        public string tipopaciente { get; set; }
+        public string estado { get; set; }  
     }
 }

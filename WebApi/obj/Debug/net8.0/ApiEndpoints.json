@@ -554,6 +554,41 @@
   },
   {
     "ContainingType": "WebApi.Controller.v1.PacienteController",
+    "Method": "AgregarPacietne",
+    "RelativePath": "api/v1/Paciente/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Paciente.Commands.CrearPacienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.PacienteController",
     "Method": "BuscarPacienteByNombre",
     "RelativePath": "api/v1/Paciente/Buscar-ByNombre",
     "HttpMethod": "GET",
@@ -561,8 +596,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pId",
-        "Type": "System.Int64",
+        "Name": "Nombre",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -589,15 +624,91 @@
   },
   {
     "ContainingType": "WebApi.Controller.v1.PacienteController",
+    "Method": "EstadoAtendido",
+    "RelativePath": "api/v1/Paciente/CambiarEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Paciente.Commands.EstadoAtendidoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.PacienteController",
+    "Method": "EditarPaciente",
+    "RelativePath": "api/v1/Paciente/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "Application.Feature.Paciente.Commands.EditarPacienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Domain.Entities.BaseResponse.GenericResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controller.v1.PacienteController",
     "Method": "ObtenerPacienteByLugar",
-    "RelativePath": "api/v1/Paciente/Listado",
+    "RelativePath": "api/v1/Paciente/Listado-ByLugar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "IdLugar",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "Domain.Entities.BaseResponse.ObjectResponse\u00601[[Domain.Entities.Services.Lugar.LugarResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.Entities.BaseResponse.ListResponse\u00601[[Domain.Entities.Services.Paciente.PacienteResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -15,6 +15,7 @@ namespace Application
             services.AddScoped<ILugarUseCase, LugarUseCase>();
             services.AddScoped<IMisionUseCase, MisionUseCase>();
             services.AddScoped<IUnionMisionLugarUseCase, UnionMisionLugarUseCase>();
+            services.AddScoped<IPacienteUseCase, PacienteUseCase>();
         }
     }
 }
